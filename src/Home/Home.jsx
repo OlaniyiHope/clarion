@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect, useRef } from "react";
 import Header from "../Header";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -17,10 +17,48 @@ import twentyf from "../img/25.JPG"
 import twentys from "../img/26.JPG"
 import two from "../img/2.JPG"
 import sa from "../img/sa.png"
+import { gsap } from "gsap";
 
 const Home = () => {
+  const headingRef = useRef(null);
 
+  useEffect(() => {
+    const text = headingRef.current;
+    const words = text.textContent.split(" "); // split by words
+    text.textContent = ""; // clear the text
 
+    // Define alternating colors
+    const colors = ["#fa5a04", "#ffffff"];
+
+    // Loop through words
+    words.forEach((word, wordIndex) => {
+      const wordSpan = document.createElement("span");
+      wordSpan.style.display = "inline-block";
+      wordSpan.style.marginRight = "10px"; // spacing between words
+      wordSpan.style.color = colors[wordIndex % colors.length]; // alternate color
+
+      // Wrap each letter in a span
+      word.split("").forEach((letter) => {
+        const span = document.createElement("span");
+        span.textContent = letter;
+        span.style.display = "inline-block";
+        span.style.opacity = 0;
+        span.style.transform = "translateX(-40px)";
+        wordSpan.appendChild(span);
+      });
+
+      text.appendChild(wordSpan);
+    });
+
+    // Animate letters like a typewriter, one by one
+    gsap.to(text.querySelectorAll("span > span"), {
+      x: 0,
+      opacity: 1,
+      duration: 0.5,
+      stagger: 0.12, // slower per letter
+      ease: "power3.out",
+    });
+  }, []);
   return (
     <div>
    <Header />
@@ -33,19 +71,30 @@ const Home = () => {
 		<div data-ekitparallax="{&quot;ekit_section_parallax_bg&quot;:&quot;yes&quot;,&quot;ekit_section_parallax_bg_speed&quot;:0.5,&quot;elementor_lazy_load&quot;:&quot;1&quot;}" class="elementor-element elementor-element-fe91c30 e-flex e-con-boxed e-con e-child" data-id="fe91c30" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-5f24818 e-con-full e-flex e-con e-child" data-id="5f24818" data-element_type="container">
-				<div class="elementor-element elementor-element-17ea61f at-heading-animation at-animation-heading-none elementor-invisible elementor-widget elementor-widget-heading" data-id="17ea61f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-17ea61f at-heading-animation at-animation-heading-none  elementor-widget elementor-widget-heading" data-id="17ea61f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default">Welcome to Clarion Global Energy Limited</h3>				</div>
 				</div>
 				<div class="elementor-element elementor-element-f3f7de9 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="f3f7de9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">The most excellent energy solution</h1>				</div>
+				  <h1
+      ref={headingRef}
+      style={{
+        fontSize: "2.8rem",
+        fontWeight: "700",
+        textAlign: "center",
+        letterSpacing: "0.5px",
+      }}
+      className="elementor-heading-title elementor-size-default"
+    >
+      The most excellent energy solution
+    </h1>			</div>
 				</div>
-				<div class="elementor-element elementor-element-09bd4ae elementor-invisible elementor-widget elementor-widget-text-editor" data-id="09bd4ae" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-09bd4ae  elementor-widget elementor-widget-text-editor" data-id="09bd4ae" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p>we specialize in construction and installation of gas tank, supply of gas tank, petroleum product marketing and distribution, procurement and supply of gas</p>								</div>
 				</div>
-		<div class="elementor-element elementor-element-f877922 e-con-full e-flex elementor-invisible e-con e-child" data-id="f877922" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+		<div class="elementor-element elementor-element-f877922 e-con-full e-flex  e-con e-child" data-id="f877922" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-bbaeda4 elementor-widget elementor-widget-button" data-id="bbaeda4" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
@@ -86,12 +135,12 @@ const Home = () => {
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-a54d303 e-con-full e-flex e-con e-child" data-id="a54d303" data-element_type="container">
-				<div class="elementor-element elementor-element-11fc39c at-heading-animation at-animation-heading-none elementor-invisible elementor-widget elementor-widget-heading" data-id="11fc39c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-11fc39c at-heading-animation at-animation-heading-none  elementor-widget elementor-widget-heading" data-id="11fc39c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">About Us</h3>				</div>
+					<h3 class="elementor-heading-title elementor-size-default" >About Us</h3>				</div>
 				</div>
 				
-				<div class="elementor-element elementor-element-8fbf117 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="8fbf117" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-8fbf117  elementor-widget elementor-widget-text-editor" data-id="8fbf117" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 						<p>
 We are a trusted name in gas infrastructure development and energy logistics, specializing in the construction and installation of LPG storage tanks, skid plants, and auto-gas dispensers. Our expertise spans the bulk supply of LPG, CNG, LNG, PMS, and AGO, as well as centralized gas systems (CGS) and general plant maintenance.  
@@ -100,7 +149,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 </p>
 							</div>
 				</div>
-		<div class="elementor-element elementor-element-b3ae5c3 e-con-full e-flex elementor-invisible e-con e-child" data-id="b3ae5c3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+		<div class="elementor-element elementor-element-b3ae5c3 e-con-full e-flex e-con e-child" data-id="b3ae5c3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-2b502a2 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2b502a2" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
 							<ul class="elementor-icon-list-items">
@@ -123,7 +172,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 						</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-096a792 e-con-full e-flex elementor-invisible e-con e-child" data-id="096a792" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
+		<div class="elementor-element elementor-element-096a792 e-con-full e-flex  e-con e-child" data-id="096a792" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
 				<div class="elementor-element elementor-element-e62f738 elementor-widget elementor-widget-button" data-id="e62f738" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
@@ -169,7 +218,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 		<div class="elementor-element elementor-element-4e96ca5 e-flex e-con-boxed e-con e-child" data-id="4e96ca5" data-element_type="container">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-1cba059 e-con-full e-flex e-con e-child" data-id="1cba059" data-element_type="container">
-				<div class="elementor-element elementor-element-8fe3355 at-heading-animation at-animation-heading-none elementor-invisible elementor-widget elementor-widget-heading" data-id="8fe3355" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-8fe3355 at-heading-animation at-animation-heading-none  elementor-widget elementor-widget-heading" data-id="8fe3355" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default">Our services</h3>				</div>
 				</div>
@@ -177,7 +226,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Comprehensive Gas & Energy Infrastructure Solutions</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-3b44d86 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="3b44d86" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-3b44d86 elementor-widget__width-initial  elementor-widget elementor-widget-text-editor" data-id="3b44d86" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p>We provide end-to-end services across the gas and petroleum industry — from the design, construction, and installation of LPG storage and skid plants to the bulk supply and distribution of LPG, CNG, LNG, PMS, and AGO. </p>								</div>
 				</div>
@@ -185,7 +234,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-4748a3f e-con-full e-flex e-con e-child" data-id="4748a3f" data-element_type="container">
-		<div class="elementor-element elementor-element-355dfec e-con-full e-flex elementor-invisible e-con e-child" data-id="355dfec" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+		<div class="elementor-element elementor-element-355dfec e-con-full e-flex e-con e-child" data-id="355dfec" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
 				<div class="elementor-element elementor-element-1456859 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="1456859" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
@@ -223,7 +272,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
     </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-3d20c86 e-con-full e-flex elementor-invisible e-con e-child" data-id="3d20c86" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+		<div class="elementor-element elementor-element-3d20c86 e-con-full e-flex  e-con e-child" data-id="3d20c86" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
 				<div class="elementor-element elementor-element-9449951 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="9449951" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
@@ -261,7 +310,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
     </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-323e15a e-con-full e-flex elementor-invisible e-con e-child" data-id="323e15a" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+		<div class="elementor-element elementor-element-323e15a e-con-full e-flex  e-con e-child" data-id="323e15a" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-28116e6 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="28116e6" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
@@ -299,7 +348,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
     </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-c4ca1fa e-con-full e-flex elementor-invisible e-con e-child" data-id="c4ca1fa" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
+		<div class="elementor-element elementor-element-c4ca1fa e-con-full e-flex  e-con e-child" data-id="c4ca1fa" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
 				<div class="elementor-element elementor-element-d066bbb service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="d066bbb" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
@@ -340,7 +389,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 				</div>
 		<div class="elementor-element elementor-element-97891ae e-flex e-con-boxed e-con e-child" data-id="97891ae" data-element_type="container">
 					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-55792ef e-con-full e-flex elementor-invisible e-con e-child" data-id="55792ef" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+		<div class="elementor-element elementor-element-55792ef e-con-full e-flex  e-con e-child" data-id="55792ef" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
 				<div class="elementor-element elementor-element-c5fa780 elementor-widget elementor-widget-button" data-id="c5fa780" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
@@ -369,13 +418,13 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Why we're your best choice</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-5ee97fd elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="5ee97fd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-5ee97fd elementor-widget__width-initial  elementor-widget elementor-widget-text-editor" data-id="5ee97fd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p>Developed in close collaboration with our partners and clients, combines industry knowledge, decades of experience, ingenuity and adaptability to deliver excellence to our clients.</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-c1f1a59 e-con-full e-flex e-con e-child" data-id="c1f1a59" data-element_type="container">
-		<div class="elementor-element elementor-element-14476ba e-con-full e-flex elementor-invisible e-con e-child" data-id="14476ba" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+		<div class="elementor-element elementor-element-14476ba e-con-full e-flex  e-con e-child" data-id="14476ba" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
 				<div class="elementor-element elementor-element-b985f75 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="b985f75" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-box.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
@@ -412,13 +461,13 @@ With years of hands-on experience in designing, constructing, and maintaining ga
 						</div>
 				</div>*/}
 				</div>
-		<div class="elementor-element elementor-element-fd70748 e-con-full e-flex elementor-invisible e-con e-child" data-id="fd70748" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+		<div class="elementor-element elementor-element-fd70748 e-con-full e-flex  e-con e-child" data-id="fd70748" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
 				<div class="elementor-element elementor-element-5c0a15b why-choose-us-img image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="5c0a15b" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 															<img loading="lazy" decoding="async" width="413" height="461"  src={sa} class="attachment-full size-full wp-image-1087" alt="" />															</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-a0233e8 e-con-full e-flex elementor-invisible e-con e-child" data-id="a0233e8" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+		<div class="elementor-element elementor-element-a0233e8 e-con-full e-flex  e-con e-child" data-id="a0233e8" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-db1e688 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="db1e688" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-box.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
@@ -456,13 +505,13 @@ Our operations strictly follow DPR and international safety regulations, using c
 						</div>
 				</div>*/}
 				</div>
-		<div class="elementor-element elementor-element-4a50d54 e-con-full e-flex elementor-invisible e-con e-child" data-id="4a50d54" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
+		<div class="elementor-element elementor-element-4a50d54 e-con-full e-flex  e-con e-child" data-id="4a50d54" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
 				<div class="elementor-element elementor-element-c15b894 why-choose-us-img image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="c15b894" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 															<img loading="lazy" decoding="async" width="413" height="461" src={ninetn} class="attachment-full size-full wp-image-1085" alt="" />															</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-f2fa51c e-con-full e-flex elementor-invisible e-con e-child" data-id="f2fa51c" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
+		<div class="elementor-element elementor-element-f2fa51c e-con-full e-flex  e-con e-child" data-id="f2fa51c" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
 				<div class="elementor-element elementor-element-5131db5 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="5131db5" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-box.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
@@ -499,7 +548,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 						</div>
 				</div>*/}
 				</div>
-		<div class="elementor-element elementor-element-a4e8952 e-con-full e-flex elementor-invisible e-con e-child" data-id="a4e8952" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:500}">
+		<div class="elementor-element elementor-element-a4e8952 e-con-full e-flex  e-con e-child" data-id="a4e8952" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:500}">
 				<div class="elementor-element elementor-element-59cc9d2 why-choose-us-img image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="59cc9d2" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 															<img loading="lazy" decoding="async" width="413" height="461" src={fiftn} class="attachment-full size-full wp-image-1086" alt="" />															</div>
@@ -520,7 +569,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Explore our diverse range of projects</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-c61dc47 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="c61dc47" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-c61dc47 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="c61dc47" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p> Our portfolio showcases a wide range of gas and energy infrastructure projects — from LPG skid plant installations and centralized gas systems to auto-gas stations, industrial tank setups, and bulk supply depots. .</p>								</div>
 				</div>
@@ -528,7 +577,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-cf3dc23 e-con-full e-flex e-con e-child" data-id="cf3dc23" data-element_type="container">
-				<div class="elementor-element elementor-element-f5e48a0 elementor-grid-4 elementor-grid-tablet-2 elementor-grid-mobile-1 awaiken-portfolio-gutter-30 elementor-invisible elementor-widget elementor-widget-builtup-portfolio-grid" data-id="f5e48a0" data-element_type="widget" data-settings="{&quot;columns&quot;:&quot;4&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;grid_layout&quot;:&quot;grid&quot;,&quot;aspect_ratio&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;columns_tablet&quot;:&quot;2&quot;,&quot;columns_mobile&quot;:&quot;1&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="builtup-portfolio-grid.default">
+				<div class="elementor-element elementor-element-f5e48a0 elementor-grid-4 elementor-grid-tablet-2 elementor-grid-mobile-1 awaiken-portfolio-gutter-30  elementor-widget elementor-widget-builtup-portfolio-grid" data-id="f5e48a0" data-element_type="widget" data-settings="{&quot;columns&quot;:&quot;4&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;grid_layout&quot;:&quot;grid&quot;,&quot;aspect_ratio&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;columns_tablet&quot;:&quot;2&quot;,&quot;columns_mobile&quot;:&quot;1&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="builtup-portfolio-grid.default">
 				<div class="elementor-widget-container">
 							<div id="awaiken-portfolio-f5e48a0">
 				<div class="awaiken-portfolio-grid elementor-grid awaiken-portfolio-layout-grid awaiken-portfolio-item-design-1">
@@ -627,7 +676,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				</div>
 		<div class="elementor-element elementor-element-4c529fc e-flex e-con-boxed e-con e-child" data-id="4c529fc" data-element_type="container">
 					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-20ac1c8 e-con-full e-flex elementor-invisible e-con e-child" data-id="20ac1c8" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+		<div class="elementor-element elementor-element-20ac1c8 e-con-full e-flex  e-con e-child" data-id="20ac1c8" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-e2a73b9 elementor-widget elementor-widget-button" data-id="e2a73b9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
@@ -652,11 +701,11 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Let’s Secure Your Future and Earn While You Sleep!</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-b27a18a elementor-invisible elementor-widget elementor-widget-text-editor" data-id="b27a18a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-b27a18a  elementor-widget elementor-widget-text-editor" data-id="b27a18a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p>    Invest in a profitable future with our expert gas plant construction and installation services.</p>								</div>
 				</div>
-				<div class="elementor-element elementor-element-d69f8b0 btn-transparent elementor-invisible elementor-widget elementor-widget-button" data-id="d69f8b0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-element elementor-element-d69f8b0 btn-transparent elementor-widget elementor-widget-button" data-id="d69f8b0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
 					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact-us/index.html" style={{backgroundColor: "#fa5a04"}}>
@@ -689,7 +738,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">What people are saying about us</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-6d86cde elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="6d86cde" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-6d86cde elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6d86cde" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>								</div>
 				</div>
@@ -837,7 +886,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 		<div class="elementor-element elementor-element-3207e83 e-flex e-con-boxed e-con e-parent" data-id="3207e83" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-83e4aef e-con-full e-flex e-con e-child" data-id="83e4aef" data-element_type="container">
-				<div class="elementor-element elementor-element-9d835f3 at-heading-animation at-animation-heading-none elementor-invisible elementor-widget elementor-widget-heading" data-id="9d835f3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-9d835f3 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="9d835f3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default">Faqs</h3>				</div>
 				</div>
@@ -845,7 +894,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="elementor-widget-container">
 					<h1 class="elementor-heading-title elementor-size-default">Got questions? we've got answers</h1>				</div>
 				</div>
-				<div class="elementor-element elementor-element-1c43542 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="1c43542" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-1c43542 elementor-widget__width-initial  elementor-widget elementor-widget-text-editor" data-id="1c43542" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>								</div>
 				</div>
@@ -881,7 +930,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 						</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-0416ec5 e-con-full e-flex elementor-invisible e-con e-child" data-id="0416ec5" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+		<div class="elementor-element elementor-element-0416ec5 e-con-full e-flex  e-con e-child" data-id="0416ec5" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
 				<div class="elementor-element elementor-element-b8d919a faq-accordion elementor-widget elementor-widget-elementskit-accordion" data-id="b8d919a" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-accordion.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
@@ -1140,7 +1189,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-f18f202 e-con-full e-flex e-con e-child" data-id="f18f202" data-element_type="container">
 		<div class="elementor-element elementor-element-1ce556b e-con-full e-flex e-con e-child" data-id="1ce556b" data-element_type="container">
-		<div class="elementor-element elementor-element-9d104ce e-con-full contact-sidebar e-flex elementor-invisible e-con e-child" data-id="9d104ce" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+		<div class="elementor-element elementor-element-9d104ce e-con-full contact-sidebar e-flex  e-con e-child" data-id="9d104ce" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
 				<div class="elementor-element elementor-element-aec5e65 contact-info ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="aec5e65" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >       
@@ -1189,8 +1238,8 @@ Our operations strictly follow DPR and international safety regulations, using c
 				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-f8fca35 e-con-full e-flex elementor-invisible e-con e-child" data-id="f8fca35" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
-				<div class="elementor-element elementor-element-49c625f at-heading-animation at-animation-heading-none elementor-invisible elementor-widget elementor-widget-heading" data-id="49c625f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+		<div class="elementor-element elementor-element-f8fca35 e-con-full e-flex  e-con e-child" data-id="f8fca35" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+				<div class="elementor-element elementor-element-49c625f at-heading-animation at-animation-heading-none  elementor-widget elementor-widget-heading" data-id="49c625f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default">Contact us</h3>				</div>
 				</div>
