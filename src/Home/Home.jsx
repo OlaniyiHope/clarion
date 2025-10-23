@@ -736,7 +736,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="elementor-element elementor-element-d69f8b0 btn-transparent elementor-widget elementor-widget-button" data-id="d69f8b0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact-us/index.html" style={{backgroundColor: "#fa5a04"}}>
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact" style={{backgroundColor: "#fa5a04"}}>
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
