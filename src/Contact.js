@@ -81,8 +81,8 @@ const Contact = () => {
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						<a href="tel:+1 809 120 6705">+1 809 120 6705</a><br />
-<a href="tel:+1 809 120 6705">+1 809 120 6705</a>					</p>
+						<a href="tel:  +234 903 577 5544 ">  +234 903 577 5544   </a><br />
+			</p>
 				
 			</div>
 			
@@ -108,8 +108,8 @@ const Contact = () => {
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						<a href="mailto:info@domain.com">info@domain.com</a><br />
-<a href="mailto:support@domain.com">support@domain.com</a>					</p>
+						<a href="mailto:info@domain.com">info@clarionglobalenergy.com</a><br />
+<a href="mailto:support@domain.com">clarionglobalenergylimited@gmail.com</a>					</p>
 				
 			</div>
 			
@@ -135,7 +135,7 @@ const Contact = () => {
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						2972 Westheimer Rd. Santa Ana, Illinois 85486					</p>
+						       No.4 Ayanboye Street, Off Faramobi Ajoke Street, Anthony Village, Lagos.  				</p>
 				
 			</div>
 			
