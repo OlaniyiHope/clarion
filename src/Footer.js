@@ -1,17 +1,17 @@
 import React, { Fragment, useState, useEffect } from "react";
-
+import one from "./img/overlay.png";
 const Footer = () => {
   return (
     <div>
-    		<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
-		<div data-elementor-type="wp-post" data-elementor-id="1688" class="elementor elementor-1688">
-				<div class="elementor-element elementor-element-aac5742 e-flex e-con-boxed e-con e-parent" data-id="aac5742" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    		<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support" style={{backgroundColor: "#00026d"}}>
+		<div data-elementor-type="wp-post" data-elementor-id="1688" class="elementor elementor-1688"  style={{backgroundColor: "#00026d"}}>
+				<div class="elementor-element elementor-element-aac5742 e-flex e-con-boxed e-con e-parent" data-id="aac5742" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"  style={{backgroundColor: "#00026d"}}>
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-518b814 e-con-full e-flex e-con e-child" data-id="518b814" data-element_type="container">
 		<div class="elementor-element elementor-element-2b12312 e-con-full e-flex e-con e-child" data-id="2b12312" data-element_type="container">
 				<div class="elementor-element elementor-element-65cb43e at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="65cb43e" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="234" height="78" src="wp-content/uploads/2024/06/footer-logo.svg" class="attachment-full size-full wp-image-1698" alt="" />															</div>
+															<img width="234" height="78" src={one} class="attachment-full size-full wp-image-1698" alt="" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-7b129ce elementor-widget elementor-widget-text-editor" data-id="7b129ce" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
