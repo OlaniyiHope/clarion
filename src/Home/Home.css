@@ -118,3 +118,11 @@ td {
     transform: scale(1);
   }
 }
+
+
+.ekit-main-swiper,
+.swiper-wrapper,
+.swiper-slide {
+  touch-action: pan-y pan-x !important;
+  pointer-events: auto !important;
+}
