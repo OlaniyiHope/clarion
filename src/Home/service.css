@@ -37,7 +37,7 @@
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 0.8rem;
-  color: #00026d;
+  color: #12223b;
 }
 
 .elementskit-box-style-content {
@@ -61,7 +61,7 @@
 }
 
 .elementskit-btn:hover {
-  background-color: #00026d;
+  background-color: #12223b;
 }
 
 /* Hide scrollbar (cross browser) */

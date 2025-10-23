@@ -1,0 +1,33 @@
+/* Target the menu icons only */
+.elementskit-menu-container li::before,
+.elementskit-navbar-nav > li::before,
+.elementskit-navbar-nav > li > a::before {
+  color: #fa5a04 !important;
+  fill: #fa5a04 !important;
+  stroke: #fa5a04 !important;
+}
+
+
+/* For font-awesome or embedded SVG icons */
+.elementskit-menu-container li i,
+.elementskit-menu-container li svg {
+  color: #fa5a04 !important;
+  fill: #fa5a04 !important;
+  stroke: #fa5a04 !important;
+}
+
+
+/* Change the list icon color in the ElementsKit vertical menu */
+.ekit-vertical-navbar-nav li a::before {
+  color: #fa5a04 !important;
+  fill: #fa5a04 !important;
+  stroke: #fa5a04 !important;
+  opacity: 1 !important;
+}
+
+/* Optional – make the icon a little brighter on hover */
+.ekit-vertical-navbar-nav li a:hover::before {
+  color: #fff !important;
+  fill: #fff !important;
+}
+
