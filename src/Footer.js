@@ -49,10 +49,10 @@ const Footer = () => {
 					<div class="ekit-wid-con">        <div 
             class="ekit-vertical-main-menu-wraper   badge-position-left"
         >
-                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-3071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3071 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="about-us/index.html" class="ekit-menu-nav-link">About Us</a></li>
-<li id="menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3068 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="services/index.html" class="ekit-menu-nav-link">Services</a></li>
-<li id="menu-item-3075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3075 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="blog/index.html" class="ekit-menu-nav-link">Blog</a></li>
-<li id="menu-item-3070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3070 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="faqs/index.html" class="ekit-menu-nav-link">Faqs</a></li>
+                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-3071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3071 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/about" class="ekit-menu-nav-link">About Us</a></li>
+<li id="menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3068 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link">Services</a></li>
+<li id="menu-item-3075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3075 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/blog" class="ekit-menu-nav-link">Blog</a></li>
+<li id="menu-item-3070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3070 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/help" class="ekit-menu-nav-link">Faqs</a></li>
 </ul></div>        </div>
         </div>				</div>
 				</div>
