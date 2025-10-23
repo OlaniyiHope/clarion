@@ -71,20 +71,8 @@ const Header = ({ cartCount }) => {
 				<ul id="menu-header-menu" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon">
 					
 					
-					<li id="menu-item-5912" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-5912 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu="750px">
-						
-						
-						<a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Home<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-<ul class="elementskit-dropdown elementskit-submenu-panel">
-	<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-17 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px">
 		
-		<a href="index.html" class=" dropdown-item active">Home &#8211; Image</a></li>
-	
-		<li id="menu-item-5913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5913 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-			<a href="home-slider/index.html" class=" dropdown-item">Home – Slider</a></li>	
-			<li id="menu-item-5914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5914 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-			<a href="home-video/index.html" class=" dropdown-item">Home – Video</a></li></ul>
-</li>
+<li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="about-us/index.html" class="ekit-menu-nav-link">Home</a></li>
 <li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="about-us/index.html" class="ekit-menu-nav-link">About Us</a></li>
 <li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="about-us/index.html" class="ekit-menu-nav-link">Services</a></li>
 <li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="about-us/index.html" class="ekit-menu-nav-link">Projects</a></li>
