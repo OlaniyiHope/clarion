@@ -121,7 +121,7 @@ const Home = () => {
 				<div class="elementor-element elementor-element-bbaeda4 elementor-widget elementor-widget-button" data-id="bbaeda4" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact-us/index.html" style={{backgroundColor: "#fa5a04"}}>
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact" style={{backgroundColor: "#fa5a04"}}>
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"  viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
@@ -134,7 +134,7 @@ const Home = () => {
 				<div class="elementor-element elementor-element-1f6da57 btn-highlighted elementor-widget elementor-widget-button" data-id="1f6da57" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="projects/index.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/project">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
@@ -202,7 +202,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 				<div class="elementor-element elementor-element-e62f738 elementor-widget elementor-widget-button" data-id="e62f738" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact-us/index.html" style={{backgroundColor: "#fa5a04"}}>
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact" style={{backgroundColor: "#fa5a04"}}>
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
@@ -217,14 +217,14 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 							<div class="elementor-icon-box-wrapper">
 
 						<div class="elementor-icon-box-icon">
-				<a href="tel:+1%20809%20120%206705" class="elementor-icon" tabindex="-1" aria-label="call support center 24X7">
+				<a href="tel:+2349035775544" class="elementor-icon" tabindex="-1" aria-label="call support center 24X7">
 				<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none"><g clip-path="url(#clip0_389_16083)"><path d="M68.5417 32.0833C67.7367 32.0833 67.0833 31.43 67.0833 30.625C67.0833 15.3475 54.6525 2.91667 39.375 2.91667C38.57 2.91667 37.9167 2.26333 37.9167 1.45833C37.9167 0.653333 38.57 0 39.375 0C56.2625 0 70 13.7375 70 30.625C70 31.43 69.3467 32.0833 68.5417 32.0833ZM58.3333 30.625C58.3333 20.1717 49.8283 11.6667 39.375 11.6667C38.57 11.6667 37.9167 12.32 37.9167 13.125C37.9167 13.93 38.57 14.5833 39.375 14.5833C48.2213 14.5833 55.4167 21.7788 55.4167 30.625C55.4167 31.43 56.07 32.0833 56.875 32.0833C57.68 32.0833 58.3333 31.43 58.3333 30.625ZM64.8492 64.9571L67.7017 61.6758C69.1833 60.1942 70 58.2225 70 56.1283C70 54.0342 69.1833 52.0596 67.5588 50.4554L60.4246 44.9925C57.3679 41.9358 52.395 41.9329 49.3325 44.9838L44.8642 49.3413C34.1308 44.9692 25.3867 36.2163 20.6733 25.1242L25.0133 20.6763C28.0729 17.6167 28.0729 12.6379 25.1388 9.72125L19.425 2.30417C16.4587 -0.662083 11.2204 -0.592083 8.4 2.23708L4.97583 5.22375C1.76458 8.4175 0 12.7546 0 17.43C0 40.0312 29.9688 70 52.57 70C57.2454 70 61.5796 68.2354 64.8492 64.9571ZM17.2346 4.2175L22.9483 11.6346C24.8704 13.5567 24.8704 16.6863 22.9367 18.6229L17.9142 23.7738C17.5117 24.1879 17.3892 24.8004 17.605 25.3371C22.6479 37.8933 32.5179 47.7604 44.6892 52.4037C45.22 52.6079 45.8208 52.4825 46.2262 52.0887L51.3771 47.0662C51.3771 47.0662 51.3858 47.0575 51.3887 47.0517C53.2525 45.185 56.3588 45.0654 58.5054 47.1771L65.6396 52.64C67.5617 54.5621 67.5617 57.6888 65.5725 59.6867L62.7171 62.9679C60.0688 65.6221 56.4638 67.0833 52.57 67.0833C31.6867 67.0833 2.91667 38.3133 2.91667 17.43C2.91667 13.5363 4.37792 9.93125 6.96208 7.35L10.3892 4.36042C11.3692 3.38042 12.6613 2.90208 13.9329 2.90208C15.155 2.90208 16.3567 3.34542 17.2375 4.22042L17.2346 4.2175Z" fill="#fa5a04"></path></g><defs><clipPath id="clip0_389_16083"><rect width="70" height="70" fill="white"></rect></clipPath></defs></svg>				</a>
 			</div>
 			
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">
-						<a href="tel:+1%20809%20120%206705" >
+						<a href="tel:+2349035775544" >
 							call support center 24X7						</a>
 					</h3>
 				
@@ -421,7 +421,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 				<div class="elementor-element elementor-element-c5fa780 elementor-widget elementor-widget-button" data-id="c5fa780" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="services/index.html" style={{backgroundColor: "#fa5a04"}}>
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/services" style={{backgroundColor: "#fa5a04"}}>
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
@@ -708,7 +708,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="elementor-element elementor-element-e2a73b9 elementor-widget elementor-widget-button" data-id="e2a73b9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="projects/index.html" style={{backgroundColor: "#fa5a04"}}>
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/project" style={{backgroundColor: "#fa5a04"}}>
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
