@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import park from "./edu.PNG";
-import one from "./img/1.png";
+import one from "./img/logo.png";
 const Header = ({ cartCount }) => {
   return (
 

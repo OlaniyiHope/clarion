@@ -6,7 +6,7 @@ import park from "./edu.PNG";
 import Test from "../Test";
 import Footer from "../Footer";
 import one from "../img/1.png"
-import six from "../img/6.JPG"
+import six from "../img/sa.JPG"
 import seven from "../img/7.JPG"
 import nine from "../img/9.JPG"
 import twelve from "../img/12.JPG"
@@ -16,8 +16,10 @@ import fiftn from "../img/15.JPG"
 import twentyf from "../img/25.JPG"
 import twentys from "../img/26.JPG"
 import two from "../img/2.JPG"
-import sa from "../img/sa.png"
-import { gsap } from "gsap";
+import sa from "../img/sb.png"
+import cy from "../img/5.JPG"
+import { gsap } from "gsap"; 
+import ServiceHome from "./Booking";
 
 const Home = () => {
   const headingRef = useRef(null);
@@ -139,7 +141,10 @@ const Home = () => {
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default" >About Us</h3>				</div>
 				</div>
-				
+					<div class=" at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="8281ce8" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Who We Are</h2>				</div>
+				</div>
 				<div class="elementor-element elementor-element-8fbf117  elementor-widget elementor-widget-text-editor" data-id="8fbf117" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 						<p>
@@ -224,7 +229,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 				</div>
 				<div class="elementor-element elementor-element-8281ce8 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="8281ce8" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Comprehensive Gas & Energy Infrastructure Solutions</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">...Excellent Energy Solutions</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-3b44d86 elementor-widget__width-initial  elementor-widget elementor-widget-text-editor" data-id="3b44d86" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -233,11 +238,12 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-4748a3f e-con-full e-flex e-con e-child" data-id="4748a3f" data-element_type="container">
-		<div class="elementor-element elementor-element-355dfec e-con-full e-flex e-con e-child" data-id="355dfec" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-				<div class="elementor-element elementor-element-1456859 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="1456859" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
-				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >
+	{/*<ServiceHome />*/}
+	   <div class="elementor-element elementor-element-4748a3f e-con-full e-flex e-con e-child" data-id="4748a3f" data-element_type="container">
+        <div class="elementor-element elementor-element-355dfec e-con-full e-flex e-con e-child" data-id="355dfec" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                <div class="elementor-element elementor-element-1456859 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="1456859" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
+                <div class="elementor-widget-container">
+                    <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
                 <a href="services/building-construction/index.html">
@@ -250,11 +256,11 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                     <div class="elementskit-box-content ekit-image-box-body-inner">
                                                 <h3 class="elementskit-info-box-title">
 
-                        Building Construction
+                      Skid Plant Setup
                         
                     </h3>
                                                             <div class="elementskit-box-style-content">
-                        Our post-construction services gives you peace of mind knowing that we are still here for you even after.                    </div>
+                        Design, construction and installation of gas plants/skid plants                    </div>
                                     </div>
 
                                 <div class="elementskit-box-footer">
@@ -269,13 +275,13 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                 </div>
                             </div>
             </div>
-    </div>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-3d20c86 e-con-full e-flex  e-con e-child" data-id="3d20c86" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
-				<div class="elementor-element elementor-element-9449951 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="9449951" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
-				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >
+    </div>              </div>
+                </div>
+                </div>
+        <div class="elementor-element elementor-element-3d20c86 e-con-full e-flex  e-con e-child" data-id="3d20c86" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+                <div class="elementor-element elementor-element-9449951 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="9449951" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
+                <div class="elementor-widget-container">
+                    <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
                 <a href="services/architecture-design/index.html">
@@ -288,11 +294,11 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                     <div class="elementskit-box-content ekit-image-box-body-inner">
                                                 <h3 class="elementskit-info-box-title">
 
-                         Architecture Design
+                     Central Gas Systems
                         
                     </h3>
                                                             <div class="elementskit-box-style-content">
-                        Our post-construction services gives you peace of mind knowing that we are still here for you even after.                    </div>
+                        Gas piping and reticulation for estates, hostels, hospitals, restuarants and industries                   </div>
                                     </div>
 
                                 <div class="elementskit-box-footer">
@@ -307,30 +313,30 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                 </div>
                             </div>
             </div>
-    </div>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-323e15a e-con-full e-flex  e-con e-child" data-id="323e15a" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
-				<div class="elementor-element elementor-element-28116e6 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="28116e6" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
-				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >
+    </div>              </div>
+                </div>
+                </div>
+        <div class="elementor-element elementor-element-323e15a e-con-full e-flex  e-con e-child" data-id="323e15a" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+                <div class="elementor-element elementor-element-28116e6 service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="28116e6" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
+                <div class="elementor-widget-container">
+                    <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
                 <a href="services/building-renovation/index.html">
                 <div class="elementskit-box-header image-box-img-left">
 
-                    <img loading="lazy" decoding="async" width="1200" height="800"  src={nine} class="attachment-full size-full wp-image-2600" alt="" />
+                    <img loading="lazy" decoding="async" width="1200" height="800"  src={fourtn} class="attachment-full size-full wp-image-2600" alt="" />
                 </div>
                 </a>
                 <div class="elementskit-box-body ekit-image-box-body">
                     <div class="elementskit-box-content ekit-image-box-body-inner">
                                                 <h3 class="elementskit-info-box-title">
 
-                        Building Renovation
+                      Fuel and Storage Facilities
                         
                     </h3>
                                                             <div class="elementskit-box-style-content">
-                        Our post-construction services gives you peace of mind knowing that we are still here for you even after.                    </div>
+                   Filling Stations, tank farms, storage tanks and dispensing systems                 </div>
                                     </div>
 
                                 <div class="elementskit-box-footer">
@@ -345,30 +351,30 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                 </div>
                             </div>
             </div>
-    </div>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-c4ca1fa e-con-full e-flex  e-con e-child" data-id="c4ca1fa" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
-				<div class="elementor-element elementor-element-d066bbb service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="d066bbb" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
-				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >
+    </div>              </div>
+                </div>
+                </div>
+        <div class="elementor-element elementor-element-c4ca1fa e-con-full e-flex  e-con e-child" data-id="c4ca1fa" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
+                <div class="elementor-element elementor-element-d066bbb service-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="d066bbb" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-image-box.default">
+                <div class="elementor-widget-container">
+                    <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
                 <a href="services/building-maintenance/index.html">
                 <div class="elementskit-box-header image-box-img-left">
 
-                    <img loading="lazy" decoding="async" width="1200" height="800"  src={fourtn} class="attachment-full size-full wp-image-2598" alt="" />
+                    <img loading="lazy" decoding="async" width="1200" height="800"  src={cy} class="attachment-full size-full wp-image-2598" alt="" />
                 </div>
                 </a>
                 <div class="elementskit-box-body ekit-image-box-body">
                     <div class="elementskit-box-content ekit-image-box-body-inner">
                                                 <h3 class="elementskit-info-box-title">
 
-                         Building Maintenance
+                 Procurement and Supply
                         
                     </h3>
                                                             <div class="elementskit-box-style-content">
-                        Our post-construction services gives you peace of mind knowing that we are still here for you even after.                    </div>
+                        LPG equipment, cylinders, pumps, valves, meters and safety tools.                    </div>
                                     </div>
 
                                 <div class="elementskit-box-footer">
@@ -383,10 +389,11 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                 </div>
                             </div>
             </div>
-    </div>				</div>
-				</div>
-				</div>
-				</div>
+    </div>              </div>
+                </div>
+                </div>
+                </div>
+
 		<div class="elementor-element elementor-element-97891ae e-flex e-con-boxed e-con e-child" data-id="97891ae" data-element_type="container">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-55792ef e-con-full e-flex  e-con e-child" data-id="55792ef" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
@@ -590,7 +597,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
 			<a class="awaiken-portfolio-grid-item__link" href="projects/aspen-heights/index.html">
-				<h4 class="awaiken-portfolio-grid-item__title">Aspen Heights</h4>
+				<h4 class="awaiken-portfolio-grid-item__title">1.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
 				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
@@ -612,7 +619,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
 			<a class="awaiken-portfolio-grid-item__link" href="projects/forest-hill-towers/index.html">
-				<h4 class="awaiken-portfolio-grid-item__title">Forest Hill Towers</h4>
+				<h4 class="awaiken-portfolio-grid-item__title">2.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
 				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
@@ -634,7 +641,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
 			<a class="awaiken-portfolio-grid-item__link" href="projects/bayside-residences/index.html">
-				<h4 class="awaiken-portfolio-grid-item__title">Bayside Residences</h4>
+				<h4 class="awaiken-portfolio-grid-item__title">3.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
 				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
@@ -656,7 +663,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
 			<a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
-				<h4 class="awaiken-portfolio-grid-item__title">Parkview Plaza</h4>
+				<h4 class="awaiken-portfolio-grid-item__title">Twin 3.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
 				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
@@ -740,7 +747,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				</div>
 				<div class="elementor-element elementor-element-6d86cde elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6d86cde" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>								</div>
+									<p>What our client says.</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-f869698 e-con-full e-flex e-con e-child" data-id="f869698" data-element_type="container">
@@ -765,9 +772,9 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects. From initial design to final inspection, we work closely with our clients to understand their unique needs and vision.</p></div>
+															<div class="elementskit-commentor-content"><p>“Working with Clarion Global Energy felt different from day one. Peculiar personally showed up on-site several Ames just to make sure everything was done exactly as discussed. You can tell she’s not just aFer compleAng a project, she’s aFer geHng it right. Every detail was handled with so much care, and the result was even beIer than what I expected.”</p></div>
 							
-							<div class="elementskit-commentor-bio">
+							{/*<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
 																			<div class="elementskit-commentor-image ekit-testimonial--avatar">
 											<img loading="lazy" decoding="async" width="65" height="65" src="wp-content/uploads/2024/06/author-1.jpg" class="attachment-full size-full" alt="" />										</div>
@@ -776,7 +783,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 										<span class="elementskit-author-des">Project Manager</span>
 									</div>
 								</div>
-							</div>
+							</div>*/}
 						</div>
 					</div>
 				</div>
@@ -796,9 +803,9 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects. From initial design to final inspection, we work closely with our clients to understand their unique needs and vision.</p></div>
+															<div class="elementskit-commentor-content"><p>“I’ve been in the LPG space for a while, but I haven’t met many as thorough as Peculiar. She doesn’t mind traveling long distances to inspect work, ask quesAons, and double-check details most people would overlook. Her commitment to excellence honestly sets the tone for the whole team.”</p></div>
 							
-							<div class="elementskit-commentor-bio">
+							{/*<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
 																			<div class="elementskit-commentor-image ekit-testimonial--avatar">
 											<img loading="lazy" decoding="async" width="65" height="65" src="wp-content/uploads/2024/06/author-2.jpg" class="attachment-full size-full" alt="" />										</div>
@@ -807,7 +814,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 										<span class="elementskit-author-des">Interior Designer</span>
 									</div>
 								</div>
-							</div>
+							</div>*/}
 						</div>
 					</div>
 				</div>
@@ -827,9 +834,9 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects. From initial design to final inspection, we work closely with our clients to understand their unique needs and vision.</p></div>
+															<div class="elementskit-commentor-content"><p>“Clarion Global Energy is young, but Peculiar has been doing this for years — and it shows. She supervised my project personally and made sure every stage followed the agreed specificaAon. I’ve since referred two friends because she delivers what she promises, with that personal touch you rarely find.”</p></div>
 							
-							<div class="elementskit-commentor-bio">
+						{/*}	<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
 																			<div class="elementskit-commentor-image ekit-testimonial--avatar">
 											<img loading="lazy" decoding="async" width="65" height="65" src="wp-content/uploads/2024/06/author-3.jpg" class="attachment-full size-full" alt="" />										</div>
@@ -838,7 +845,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 										<span class="elementskit-author-des">Logistics Coordinator</span>
 									</div>
 								</div>
-							</div>
+							</div>*/}
 						</div>
 					</div>
 				</div>
@@ -858,9 +865,10 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects. From initial design to final inspection, we work closely with our clients to understand their unique needs and vision.</p></div>
+															<div class="elementskit-commentor-content"><p>
+“No project is ever 100% perfect, and what impressed me most about Clarion Global Energy was how they handled a challenge we had during my plant installaAon. There was a slight mix-up in one secAon of the setup, but Peculiar didn’t make excuses — she took full responsibility, mobilized her team immediately, and got it fixed in record Ame. That kind of accountability is rare. I’d sAll choose them a hundred Ames over because she stands by her word.”</p></div>
 							
-							<div class="elementskit-commentor-bio">
+							{/*<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
 																			<div class="elementskit-commentor-image ekit-testimonial--avatar">
 											<img loading="lazy" decoding="async" width="65" height="65" src="wp-content/uploads/2024/06/author-4.jpg" class="attachment-full size-full" alt="" />										</div>
@@ -869,7 +877,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 										<span class="elementskit-author-des">Structural Engineer</span>
 									</div>
 								</div>
-							</div>
+							</div>*/}
 						</div>
 					</div>
 				</div>
@@ -941,7 +949,7 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div class="elementskit-card-header" id="primaryHeading-0-b8d919a">
                         <a href="#collapse-d4f2ee468f020e1d8284" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d4f2ee468f020e1d8284" aria-expanded="true" aria-controls="Collapse-d4f2ee468f020e1d8284">
                             
-                            <span class="ekit-accordion-title">Do you offer a free, no obligation quotation? </span>
+                            <span class="ekit-accordion-title">What is the process of setting up a skid gas plant? </span>
 
                             
                                 <div class="ekit_accordion_icon_group">
@@ -961,7 +969,7 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div id="Collapse-d4f2ee468f020e1d8284" class=" show collapse" aria-labelledby="primaryHeading-0-b8d919a" data-parent="#accordion-68f020e1d8284">
 
                         <div class="elementskit-card-body ekit-accordion--content">
-                            <p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>                        </div>
+                            <p>Setting up a skid gas plant begins with a detailed site assessment and design to determine the right capacity and layout for your needs. We handle everything — from engineering design, regulatory approvals, procurement, construction, and equipment installation, to testing and commissioning..</p>                        </div>
 
                     </div>
 
@@ -972,7 +980,7 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div class="elementskit-card-header" id="primaryHeading-1-b8d919a">
                         <a href="#collapse-738b5c168f020e1d8284" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-738b5c168f020e1d8284" aria-expanded="false" aria-controls="Collapse-738b5c168f020e1d8284">
                             
-                            <span class="ekit-accordion-title">What services do you offer?</span>
+                            <span class="ekit-accordion-title">Can you help with the supply of LPG equipment and materials?</span>
 
                             
                                 <div class="ekit_accordion_icon_group">
@@ -992,7 +1000,7 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div id="Collapse-738b5c168f020e1d8284" class=" collapse" aria-labelledby="primaryHeading-1-b8d919a" data-parent="#accordion-68f020e1d8284">
 
                         <div class="elementskit-card-body ekit-accordion--content">
-                            <p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>                        </div>
+                            <p>Absolutely. We supply a wide range of LPG and gas-related equipment, including cylinders, pumps, valves, meters, dispensers, and safety accessories. All our equipment is sourced from trusted manufacturers and meets international standards.</p>                        </div>
 
                     </div>
 
@@ -1003,7 +1011,7 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div class="elementskit-card-header" id="primaryHeading-2-b8d919a">
                         <a href="#collapse-724e9da68f020e1d8284" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-724e9da68f020e1d8284" aria-expanded="false" aria-controls="Collapse-724e9da68f020e1d8284">
                             
-                            <span class="ekit-accordion-title">What types of projects do you specialize in?</span>
+                            <span class="ekit-accordion-title">What kind of maintenance services do you offer for gas plants?</span>
 
                             
                                 <div class="ekit_accordion_icon_group">
@@ -1023,7 +1031,7 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div id="Collapse-724e9da68f020e1d8284" class=" collapse" aria-labelledby="primaryHeading-2-b8d919a" data-parent="#accordion-68f020e1d8284">
 
                         <div class="elementskit-card-body ekit-accordion--content">
-                            <p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>                        </div>
+                            <p>We offer comprehensive LPG plant maintenance services, including preventive inspections, leak detection, calibration, safety testing, and system upgrades..</p>                        </div>
 
                     </div>
 
@@ -1034,7 +1042,7 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div class="elementskit-card-header" id="primaryHeading-3-b8d919a">
                         <a href="#collapse-e5b1f7768f020e1d8284" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e5b1f7768f020e1d8284" aria-expanded="false" aria-controls="Collapse-e5b1f7768f020e1d8284">
                             
-                            <span class="ekit-accordion-title">How do I start a project with your company?</span>
+                            <span class="ekit-accordion-title">Do you assist with government approvals and certifications?</span>
 
                             
                                 <div class="ekit_accordion_icon_group">
@@ -1054,11 +1062,41 @@ Our operations strictly follow DPR and international safety regulations, using c
                     <div id="Collapse-e5b1f7768f020e1d8284" class=" collapse" aria-labelledby="primaryHeading-3-b8d919a" data-parent="#accordion-68f020e1d8284">
 
                         <div class="elementskit-card-body ekit-accordion--content">
-                            <p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>                        </div>
+                            <p>Yes, we assist clients through all regulatory and approval processes, including DPR licensing, fire service clearance, environmental impact assessments, and pressure vessel certifications.</p>                        </div>
 
                     </div>
 
                 </div>
+                
+                {/* <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-3-b8d919a">
+                        <a href="#collapse-e5b1f7768f020e1d8284" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e5b1f7768f020e1d8284" aria-expanded="false" aria-controls="Collapse-e5b1f7768f020e1d8284">
+                            
+                            <span class="ekit-accordion-title">Do you provide training for staff or clients on gas handling?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                      
+										<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><g clip-path="url(#clip0_263_1413)"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.93794 22.4683L8.62581 21.7826L11.7662 24.9225C13.4935 26.6495 14.9277 28.0625 14.9534 28.0625C14.979 28.0625 15 21.7484 15 14.0312V0L16 0L17 0V14.0312C17 21.7484 17.021 28.0625 17.0466 28.0625C17.0723 28.0625 18.5065 26.6495 20.2337 24.9225L23.3742 21.7826L24.0621 22.4683C24.4404 22.8455 24.75 23.1828 24.75 23.2179C24.75 23.2529 22.795 25.2362 20.4055 27.6252L16.0611 31.9688L16.5149 32.0044C16.8031 32.027 16.5924 32.0398 15.9375 32.0396C15.2101 32.0393 15.0584 32.0288 15.4225 32.004L15.9388 31.9688L11.5944 27.6252C9.205 25.2362 7.25 23.2529 7.25 23.2179C7.25 23.1828 7.55956 22.8455 7.93794 22.4683ZM16 0.0254375C16.5672 0.0254375 16.7992 0.0349375 16.5156 0.0465C16.232 0.0580625 15.7679 0.0580625 15.4844 0.0465C15.2008 0.0349375 15.4328 0.0254375 16 0.0254375Z" fill="#FFB703"></path></g><defs><clipPath id="clip0_263_1413"><rect width="32" height="32" fill="white" transform="matrix(0 1 1 0 0 0)"></rect></clipPath></defs></svg>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                 
+										<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><g clip-path="url(#clip0_263_1413)"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.93794 22.4683L8.62581 21.7826L11.7662 24.9225C13.4935 26.6495 14.9277 28.0625 14.9534 28.0625C14.979 28.0625 15 21.7484 15 14.0312V0L16 0L17 0V14.0312C17 21.7484 17.021 28.0625 17.0466 28.0625C17.0723 28.0625 18.5065 26.6495 20.2337 24.9225L23.3742 21.7826L24.0621 22.4683C24.4404 22.8455 24.75 23.1828 24.75 23.2179C24.75 23.2529 22.795 25.2362 20.4055 27.6252L16.0611 31.9688L16.5149 32.0044C16.8031 32.027 16.5924 32.0398 15.9375 32.0396C15.2101 32.0393 15.0584 32.0288 15.4225 32.004L15.9388 31.9688L11.5944 27.6252C9.205 25.2362 7.25 23.2529 7.25 23.2179C7.25 23.1828 7.55956 22.8455 7.93794 22.4683ZM16 0.0254375C16.5672 0.0254375 16.7992 0.0349375 16.5156 0.0465C16.232 0.0580625 15.7679 0.0580625 15.4844 0.0465C15.2008 0.0349375 15.4328 0.0254375 16 0.0254375Z" fill="#FFB703"></path></g><defs><clipPath id="clip0_263_1413"><rect width="32" height="32" fill="white" transform="matrix(0 1 1 0 0 0)"></rect></clipPath></defs></svg>                                    </div>
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-e5b1f7768f020e1d8284" class=" collapse" aria-labelledby="primaryHeading-3-b8d919a" data-parent="#accordion-68f020e1d8284">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            <p>Yes, we conduct LPG safety and handling training for operators, technicians, and facility managers</p>                        </div>
+
+                    </div>
+
+                </div> */}
 
                                         </div>
     </div>				</div>
