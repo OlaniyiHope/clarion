@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import park from "./edu.PNG";
 import one from "./img/overlay.png";
+import "./header.css"
 const Header = ({ cartCount }) => {
   return (
 
@@ -83,7 +84,24 @@ const Header = ({ cartCount }) => {
 
 
 <li id="menu-item-4598" class="mobile-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-4598 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/contact" class="ekit-menu-nav-link">Contact Us</a></li>
-</ul><div class="elementskit-nav-identity-panel"><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>
+</ul>
+
+
+<div class="elementskit-nav-identity-panel">
+  <div class="mobile-header-bar">
+    <img
+      src={one}
+      alt="Clarion Logo"
+      className="mobile-menu-logo"
+    />
+    <button className="elementskit-menu-close elementskit-menu-toggler close-mobile-menu" type="button">
+      ×
+    </button>
+  </div>
+</div>
+
+
+</div>
 
 
 

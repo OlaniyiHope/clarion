@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+  .elementskit-navbar-nav {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important; /* centers items horizontally */
+    justify-content: flex-start !important; /* start from top */
+    text-align: center;
+    padding-top: 40px; /* adjust for vertical spacing */
+  }
+
+  .elementskit-navbar-nav li {
+    margin: 10px auto; /* a bit more breathing room */
+    width: auto !important;
+    text-align: center;
+  }
+
+  .elementskit-navbar-nav li a {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px !important; /* ✅ bigger font for mobile */
+    font-weight: 600; /* optional: makes text a bit bolder */
+    color: #222; /* tweak if needed */
+    transition: color 0.3s ease;
+  }
+
+  .elementskit-navbar-nav li a:hover {
+    color: #fa5a04; /* nice hover color */
+  }
+}
+/* Style the mobile top bar (logo + close button) */
+@media (max-width: 768px) {
+  .elementskit-nav-identity-panel {
+    width: 100%;
+    padding: 12px 16px;
+    box-sizing: border-box;
+  }
+
+  .mobile-header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* logo left, close right */
+    width: 100%;
+  }
+
+  .mobile-menu-logo {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .close-mobile-menu {
+    background: none;
+    border: none;
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.3s ease;
+  }
+
+  .close-mobile-menu:hover {
+    color: #fa5a04;
+  }
+}
