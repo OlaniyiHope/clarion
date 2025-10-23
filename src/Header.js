@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import park from "./edu.PNG";
-import one from "./img/logo.png";
+import one from "./img/overlay.png";
 const Header = ({ cartCount }) => {
   return (
 
@@ -27,8 +27,8 @@ const Header = ({ cartCount }) => {
   alt="Clarion Logo"
   className="ata-site-logo-img"
   style={{
-    width: "50px",
-    height: "50px",
+    width: "80px",
+    height: "80px",
     objectFit: "contain",
     display: "block",
     margin: "0",
