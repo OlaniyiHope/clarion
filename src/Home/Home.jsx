@@ -18,11 +18,13 @@ import twentys from "../img/26.JPG"
 import two from "../img/2.JPG"
 import sa from "../img/sb.png"
 import cy from "../img/5.JPG"
+import promoImg from "../img/ja.png"; // ✅ path to your image
 import { gsap } from "gsap"; 
 import ServiceHome from "./Booking";
-
+import "./Home.css"
 const Home = () => {
   const headingRef = useRef(null);
+  const [showModal, setShowModal] = useState(true); // ✅ show when page loads
 
   useEffect(() => {
     const text = headingRef.current;
@@ -61,11 +63,30 @@ const Home = () => {
       ease: "power3.out",
     });
   }, []);
+  useEffect(() => {
+  if (showModal) {
+    gsap.fromTo(
+      ".modal-box",
+      { opacity: 0, scale: 0.8 },
+      { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }
+    );
+  }
+}, [showModal]);
+
   return (
     <div>
    <Header />
 
-
+{showModal && (
+  <div className="modal-overlay">
+    <div className="modal-box">
+      <button className="close-btn3" onClick={() => setShowModal(false)}>
+        &times;
+      </button>
+      <img src={promoImg} alt="Promotion" />
+    </div>
+  </div>
+)}
 
 
    	<div data-elementor-type="wp-page" data-elementor-id="10" class="elementor elementor-10">
