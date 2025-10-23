@@ -82,7 +82,7 @@ const Header = ({ cartCount }) => {
 
 
 
-<li id="menu-item-4598" class="mobile-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-4598 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="contact-us/index.html" class="ekit-menu-nav-link">Contact Us</a></li>
+<li id="menu-item-4598" class="mobile-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-4598 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/contact" class="ekit-menu-nav-link">Contact Us</a></li>
 </ul><div class="elementskit-nav-identity-panel"><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>
 
 
@@ -104,7 +104,7 @@ const Header = ({ cartCount }) => {
 				<div class="elementor-element elementor-element-a57c1c9 btn-bg-whiter elementor-widget elementor-widget-button" data-id="a57c1c9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact-us/index.html" style={{backgroundColor: "#fa5a04"}}>
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact" style={{backgroundColor: "#fa5a04"}}>
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Contact Us</span>
 					</span>

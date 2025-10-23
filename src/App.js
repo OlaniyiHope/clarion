@@ -17,6 +17,7 @@ import Services from "./Services";
 import Blog from "./Blog";
 import Project from "./Project";
 import Help from "./Help";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/project" element={<Project />} />
           <Route exact path="/help" element={<Help />} />
+          <Route exact path="/contact" element={<Contact />} />
        
         </Routes>
       </Router>
