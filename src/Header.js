@@ -28,8 +28,8 @@ const Header = ({ cartCount }) => {
   alt="Clarion Logo"
   className="ata-site-logo-img"
   style={{
-    width: "80px",
-    height: "80px",
+    width: "50px",
+    height: "50px",
     objectFit: "contain",
     display: "block",
     margin: "0",
