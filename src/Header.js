@@ -78,10 +78,10 @@ const Header = ({ cartCount }) => {
 		
 <li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/" class="ekit-menu-nav-link">Home</a></li>
 <li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/about" class="ekit-menu-nav-link">About Us</a></li>
-<li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/blog" class="ekit-menu-nav-link">Services</a></li>
+<li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link">Services</a></li>
 <li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/project" class="ekit-menu-nav-link">Projects</a></li>
 <li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/help" class="ekit-menu-nav-link">Help</a></li>
-<li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="about-us/index.html" class="ekit-menu-nav-link">Blog</a></li>
+<li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3045 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/blog" class="ekit-menu-nav-link">Blog</a></li>
 
 
 
