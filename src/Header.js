@@ -23,7 +23,7 @@ const Header = ({ cartCount }) => {
 													<a data-elementor-open-lightbox=""  class='elementor-clickable' href="/">
 							<div class="ata-site-logo-set">           
 				<div class="ata-site-logo-container">
-									<img
+							<img
   src={one}
   alt="Clarion Logo"
   className="ata-site-logo-img"
@@ -35,8 +35,11 @@ const Header = ({ cartCount }) => {
     margin: "0",
     padding: "0",
     verticalAlign: "middle",
+    transform: "scale(1.4)", // 👈 visually enlarge without layout shift
+    transformOrigin: "center", // keep it centered
   }}
 />
+
 
 				</div>
 			</div>
