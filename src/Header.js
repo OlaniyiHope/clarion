@@ -35,7 +35,7 @@ const Header = ({ cartCount }) => {
     margin: "0",
     padding: "0",
     verticalAlign: "middle",
-    transform: "scale(1.4)", // 👈 visually enlarge without layout shift
+    transform: "scale(1.5)", // 👈 visually enlarge without layout shift
     transformOrigin: "center", // keep it centered
   }}
 />
