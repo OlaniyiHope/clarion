@@ -157,7 +157,7 @@ const About = () => {
 							<div class="elementor-counter">
 			<div class="elementor-counter-title">Years Of Experience</div>			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="25" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="5" data-from-value="0" data-delimiter=",">0</span>
 				<span class="elementor-counter-number-suffix">+</span>
 			</div>
 		</div>
@@ -171,11 +171,11 @@ const About = () => {
 				</div>
 				<div class="elementor-element elementor-element-cf30dc8 elementor-widget-mobile__width-inherit at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="cf30dc8" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Crafting structures that last a lifetime</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">...excellent energy solutions</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-29e95c1  elementor-widget elementor-widget-text-editor" data-id="29e95c1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p class="wow fadeInUp" data-wow-delay="0.25s">We specialize in a wide range of construction services, including residential, commercial, and industrial projects. From initial design to final inspection, we work closely with our clients to understand their unique needs and vision.</p><p class="wow fadeInUp" data-wow-delay="0.5s">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>								</div>
+									<p class="wow fadeInUp" data-wow-delay="0.25s">We specialize in construction and installation of gas tank, supply of gas tank, petroleum product marketing and distribution, procurement and supply of gas. We provide end-to-end services across the gas and petroleum industry — from the design, construction, and installation of LPG storage and skid plants to the bulk supply and distribution of LPG, CNG, LNG, PMS, and AGO.</p>								</div>
 				</div>
 				</div>
 					</div>
@@ -357,20 +357,21 @@ const About = () => {
 		<div class="elementor-element elementor-element-1e2644d e-con-full e-flex e-con e-child" data-id="1e2644d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-4f4ad91 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="4f4ad91" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Let's bulid something great together!</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Let’s Secure Your Future and Earn While You Sleep!</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-1fd35e9  elementor-widget elementor-widget-text-editor" data-id="1fd35e9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Don&#8217;t wait any longer to bring your construction dreams to life. Partner with Builtup and experience unparalleled service and quality.</p>								</div>
+									<p>
+Invest in a profitable future with our expert gas plant construction and installation services.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-db61a71 btn-transparent  elementor-widget elementor-widget-button" data-id="db61a71" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="../contact-us/index.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
-									<span class="elementor-button-text">Get Free Quote</span>
+									<span class="elementor-button-text">Get Started Today</span>
 					</span>
 					</a>
 				</div>
@@ -681,7 +682,7 @@ const About = () => {
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
                     Call Support Center 24/7                </h3>
-                        		  	<p><a href="tel:+1 809 120 6705">+1 809 120 6705 </a></p>
+                        		  	<p><a href="tel:+1 809 120 6705">+234 903 577 5544 </a></p>
                                 </div>
         
         
@@ -702,7 +703,7 @@ const About = () => {
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
                     Write To Us                </h3>
-                        		  	<p><a href="mailto:info@domain.com">info@domain.com</a></p>
+                        		  	<p><a href="mailto:info@domain.com">clarionglobalenergylimited@gmail.com</a></p>
                                 </div>
         
         
