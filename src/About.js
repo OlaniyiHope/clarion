@@ -17,6 +17,9 @@ import twentys from "./img/26.JPG"
 import two from "./img/2.JPG"
 import sa from "./img/sb.png"
 import cy from "./img/5.JPG"
+import team3 from "./img/team3.JPG"
+import team2 from "./img/team3.JPG"
+import team1 from "./img/team1.JPG"
 import promoImg from "./img/ja.png"; // ✅ path to your image
 
 
@@ -413,7 +416,7 @@ Invest in a profitable future with our expert gas plant construction and install
 							<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_c4c50ca_723" class="ekit-team-popup">
 			
 				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block"  data-toggle="modal" data-target="ekit_team_modal_#c4c50ca_723" >
-					<img loading="lazy" decoding="async" width="412" height="379" src="../wp-content/uploads/2024/06/team-1.jpg" class="attachment-full size-full wp-image-413" alt="" />				</div>
+					<img loading="lazy" decoding="async" width="412" height="379" src={team3} class="attachment-full size-full wp-image-413" alt="" />				</div>
 							</a>
 			
 
@@ -421,9 +424,9 @@ Invest in a profitable future with our expert gas plant construction and install
 					
 					<h2 class="profile-title">
 											<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_c4c50ca_723" class="ekit-team-popup">
-						Benjamin Miller						</a>
+						Peculiar Deborah. O					</a>
 											</h2>
-					<p class="profile-designation">Project Manager</p>
+					<p class="profile-designation">CEO/MD</p>
 									</div>
 
 									<div class="profile-footer">
@@ -453,11 +456,11 @@ Invest in a profitable future with our expert gas plant construction and install
 
 						<div class="modal-body">
 															<div class="ekit-team-modal-img">
-									<img loading="lazy" decoding="async" width="412" height="379" src="../wp-content/uploads/2024/06/team-1.jpg" class="attachment-full size-full wp-image-413" alt="" />								</div>
+									<img loading="lazy" decoding="async" width="412" height="379"  src={team2} class="attachment-full size-full wp-image-413" alt="" />								</div>
 							
 							<div class="ekit-team-modal-info has-img">
-								<h2 class="ekit-team-modal-title">Benjamin Miller</h2>
-								<p class="ekit-team-modal-position">Project Manager</p>
+								<h2 class="ekit-team-modal-title">Eunice I. Taiwo</h2>
+								<p class="ekit-team-modal-position">Business Analyst</p>
 
 								<div class="ekit-team-modal-content">
 									A small river named Duden flows by their place and supplies it with the necessary								</div>
@@ -498,7 +501,7 @@ Invest in a profitable future with our expert gas plant construction and install
 							<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_e516d59_723" class="ekit-team-popup">
 			
 				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block"  data-toggle="modal" data-target="ekit_team_modal_#e516d59_723" >
-					<img loading="lazy" decoding="async" width="412" height="379" src="../wp-content/uploads/2024/06/team-2.jpg" class="attachment-full size-full wp-image-414" alt="" />				</div>
+					<img loading="lazy" decoding="async" width="412" height="379" src={team1} class="attachment-full size-full wp-image-414" alt="" />				</div>
 							</a>
 			
 
@@ -506,9 +509,9 @@ Invest in a profitable future with our expert gas plant construction and install
 					
 					<h2 class="profile-title">
 											<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_e516d59_723" class="ekit-team-popup">
-						Jane Smith						</a>
+						Adio Favour. O						</a>
 											</h2>
-					<p class="profile-designation">Lead Architect</p>
+					<p class="profile-designation">Sales Strategist/Business Developer</p>
 									</div>
 
 									<div class="profile-footer">
@@ -538,11 +541,11 @@ Invest in a profitable future with our expert gas plant construction and install
 
 						<div class="modal-body">
 															<div class="ekit-team-modal-img">
-									<img loading="lazy" decoding="async" width="412" height="379" src="../wp-content/uploads/2024/06/team-2.jpg" class="attachment-full size-full wp-image-414" alt="" />								</div>
+									<img loading="lazy" decoding="async" width="412" height="379" src={team2} class="attachment-full size-full wp-image-414" alt="" />								</div>
 							
 							<div class="ekit-team-modal-info has-img">
-								<h2 class="ekit-team-modal-title">Jane Smith</h2>
-								<p class="ekit-team-modal-position">Lead Architect</p>
+								<h2 class="ekit-team-modal-title">Eunice I. Taiwo</h2>
+								<p class="ekit-team-modal-position">Business Analyst</p>
 
 								<div class="ekit-team-modal-content">
 									A small river named Duden flows by their place and supplies it with the necessary								</div>
@@ -583,7 +586,7 @@ Invest in a profitable future with our expert gas plant construction and install
 							<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_f905512_723" class="ekit-team-popup">
 			
 				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block"  data-toggle="modal" data-target="ekit_team_modal_#f905512_723" >
-					<img loading="lazy" decoding="async" width="412" height="379" src="../wp-content/uploads/2024/06/team-3.jpg" class="attachment-full size-full wp-image-415" alt="" />				</div>
+					<img loading="lazy" decoding="async" width="412" height="379" src={team2} class="attachment-full size-full wp-image-415" alt="" />				</div>
 							</a>
 			
 
@@ -591,9 +594,11 @@ Invest in a profitable future with our expert gas plant construction and install
 					
 					<h2 class="profile-title">
 											<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_f905512_723" class="ekit-team-popup">
-						Mike Johnson						</a>
+					Eunice I. Taiwo						</a>
 											</h2>
-					<p class="profile-designation">Chief Engineer</p>
+					
+                    
+								<p class="profile-designation">Business Analyst</p>
 									</div>
 
 									<div class="profile-footer">
@@ -623,11 +628,11 @@ Invest in a profitable future with our expert gas plant construction and install
 
 						<div class="modal-body">
 															<div class="ekit-team-modal-img">
-									<img loading="lazy" decoding="async" width="412" height="379" src="../wp-content/uploads/2024/06/team-3.jpg" class="attachment-full size-full wp-image-415" alt="" />								</div>
+									<img loading="lazy" decoding="async" width="412" height="379" src={team2} class="attachment-full size-full wp-image-415" alt="" />								</div>
 							
 							<div class="ekit-team-modal-info has-img">
-								<h2 class="ekit-team-modal-title">Mike Johnson</h2>
-								<p class="ekit-team-modal-position">Chief Engineer</p>
+								<h2 class="ekit-team-modal-title">		Eunice I. Taiwo</h2>
+								<p class="ekit-team-modal-position">Business Analyst</p>
 
 								<div class="ekit-team-modal-content">
 									A small river named Duden flows by their place and supplies it with the necessary								</div>
