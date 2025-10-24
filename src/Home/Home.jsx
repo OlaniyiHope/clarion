@@ -138,7 +138,7 @@ const Home = () => {
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
-									<span class="elementor-button-text">view Projects</span>
+									<span class="elementor-button-text">Pricing</span>
 					</span>
 					</a>
 				</div>
@@ -591,15 +591,15 @@ Our operations strictly follow DPR and international safety regulations, using c
 		<div class="elementor-element elementor-element-ab5180f e-con-full e-flex e-con e-child" data-id="ab5180f" data-element_type="container">
 				<div class="elementor-element elementor-element-762e6d9 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="762e6d9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Our projects</h3>				</div>
+					<h3 class="elementor-heading-title elementor-size-default">Our Pricing</h3>				</div>
 				</div>
 				<div class="elementor-element elementor-element-8e04e0a at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="8e04e0a" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Explore our diverse range of projects</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Explore our different price range</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-c61dc47 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="c61dc47" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p> Our portfolio showcases a wide range of gas and energy infrastructure projects — from LPG skid plant installations and centralized gas systems to auto-gas stations, industrial tank setups, and bulk supply depots. .</p>								</div>
+									<p> Our pricing showcases a range of metric tons foreign tanks with locally assembled dispenser and LPG materials — from LPG 1.5 Metric Tons to 10 Tons  .</p>								</div>
 				</div>
 				</div>
 					</div>
@@ -621,30 +621,30 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<h4 class="awaiken-portfolio-grid-item__title">1.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
-				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
+				<p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>6,000,000</p>
 			</div>
 		</div>
 
 		<div class="awaiken-portfolio-grid-item__readmore">
-			<a class="awaiken-portfolio-grid-item__link btn-default" href="projects/aspen-heights/index.html">view more</a>
+			<a class="awaiken-portfolio-grid-item__link btn-default" >view more</a>
 		</div>
 				</div>
 				</div>
 		</article>
 				<article class="awaiken-portfolio-grid-item  post-4670 awaiken-portfolio type-awaiken-portfolio status-publish has-post-thumbnail hentry">
 		<div class="awaiken-portfolio-grid-item__wrapper">
-				<a class="awaiken-portfolio-grid-item__link" href="projects/forest-hill-towers/index.html">
+				<a class="awaiken-portfolio-grid-item__link" >
 			<div class="awaiken-portfolio-grid-item__img">
 				<img loading="lazy" decoding="async" width="1200" height="800" src={two} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
 		</a>
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
-			<a class="awaiken-portfolio-grid-item__link" href="projects/forest-hill-towers/index.html">
+			<a class="awaiken-portfolio-grid-item__link" >
 				<h4 class="awaiken-portfolio-grid-item__title">2.5 Tons</h4>
+					<p class="awaiken-portfolio-grid-item__title" style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N8,700,000</p>
+				
 			</a>
-					<div class="awaiken-portfolio-grid-item__excerpt">
-				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
-			</div>
+				
 		</div>
 
 		<div class="awaiken-portfolio-grid-item__readmore">
@@ -663,9 +663,10 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="awaiken-portfolio-grid-title__wrap">
 			<a class="awaiken-portfolio-grid-item__link" href="projects/bayside-residences/index.html">
 				<h4 class="awaiken-portfolio-grid-item__title">3.5 Tons</h4>
+			
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
-				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
+				<p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N10,700,0000</p>
 			</div>
 		</div>
 
@@ -687,7 +688,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<h4 class="awaiken-portfolio-grid-item__title">Twin 3.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
-				<p>Our post-construction services gives you peace of mind knowing that we are still here for you even after.</p>
+				<p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N18,000,000</p>
 			</div>
 		</div>
 
