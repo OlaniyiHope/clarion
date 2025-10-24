@@ -64,7 +64,7 @@ const About = () => {
 		<div class="elementor-element elementor-element-f7ca4ed e-con-full e-flex e-con e-child" data-id="f7ca4ed" data-element_type="container">
 				<div class="elementor-element elementor-element-b6f24f2 at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="b6f24f2" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="574" height="659" src="../wp-content/uploads/2024/06/about-us-img.png" class="attachment-full size-full wp-image-872" alt="" />															</div>
+															<img fetchpriority="high" decoding="async" width="574" height="659"  src={sa} class="attachment-full size-full wp-image-872" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-978811a e-con-full e-flex e-con e-child" data-id="978811a" data-element_type="container">
@@ -74,11 +74,11 @@ const About = () => {
 				</div>
 				<div class="elementor-element elementor-element-da702a5 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="da702a5" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Crafting structures that last a lifetime</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Who We Are</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-c068983  elementor-widget elementor-widget-text-editor" data-id="c068983" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Crafting structures that last a lifetime requires a holistic approach that integrates advanced materials, resilient design, regular maintenance, and sustainability practices. By learning from historical examples and leveraging modern technology.</p>								</div>
+									<p>We are a trusted name in gas infrastructure development and energy logistics, specializing in the construction and installation of LPG storage tanks, skid plants, and auto-gas dispensers. Our expertise spans the bulk supply of LPG, CNG, LNG, PMS, and AGO, as well as centralized gas systems (CGS) and general plant maintenance.</p>								</div>
 				</div>
 		<div class="elementor-element elementor-element-c56365b e-con-full e-flex  e-con e-child" data-id="c56365b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-0352f40 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0352f40" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
@@ -87,17 +87,17 @@ const About = () => {
 							<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Comprehensive Services</span>
+										<span class="elementor-icon-list-text">Construction & Installation of LPG Skid and Gas Plants</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Advanced Technology</span>
+										<span class="elementor-icon-list-text">Bulk Supply of LPG, CNG, LNG, PMS & AGO</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Transparent Communication</span>
+										<span class="elementor-icon-list-text">Procurement, Maintenance & Technical Support</span>
 									</li>
 						</ul>
 						</div>
@@ -107,7 +107,7 @@ const About = () => {
 				<div class="elementor-element elementor-element-d2c70f4 elementor-widget elementor-widget-button" data-id="d2c70f4" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="../contact-us/index.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>			</span>
@@ -134,7 +134,7 @@ const About = () => {
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						+1 809 120 6705					</p>
+						+234 903 577 5544				</p>
 				
 			</div>
 			
@@ -278,7 +278,7 @@ const About = () => {
 		</div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-6d424a6 e-flex e-con-boxed e-con e-parent" data-id="6d424a6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		{/* <div class="elementor-element elementor-element-6d424a6 e-flex e-con-boxed e-con e-parent" data-id="6d424a6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-b15dc1b e-con-full e-flex e-con e-child" data-id="b15dc1b" data-element_type="container">
 		<div class="elementor-element elementor-element-b3cda68 e-con-full e-flex e-con e-child" data-id="b3cda68" data-element_type="container">
@@ -351,7 +351,7 @@ const About = () => {
 				</div>
 				</div>
 					</div>
-				</div>
+				</div> */}
 		<div class="elementor-element elementor-element-de3c070 e-flex e-con-boxed e-con e-parent" data-id="de3c070" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-1e2644d e-con-full e-flex e-con e-child" data-id="1e2644d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
