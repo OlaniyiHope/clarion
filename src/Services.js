@@ -193,7 +193,7 @@ const Services = () => {
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
                     Call Support Center 24/7                </h3>
-                        		  	<p><a href="tel:+1 809 120 6705">+1 809 120 6705 </a></p>
+                        		  	<p><a href="tel:+1 809 120 6705">+234 903 577 5544 </a></p>
                                 </div>
         
         
@@ -214,7 +214,7 @@ const Services = () => {
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
                     Write To Us                </h3>
-                        		  	<p><a href="mailto:info@domain.com">info@domain.com</a></p>
+                        		  	<p><a href="mailto:info@domain.com">clarionglobalenergylimited@gmail.com</a></p>
                                 </div>
         
         
