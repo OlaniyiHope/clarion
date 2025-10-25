@@ -27,13 +27,15 @@ import twentys from "../img/26.JPG"
 import two from "../img/2.JPG"
 import sa from "../img/sb.png"
 import cy from "../img/5.JPG"
+import mod from "../img/mod.png"
 import promoImg from "../img/ja.png"; // ✅ path to your image
 import { gsap } from "gsap"; 
 import ServiceHome from "./Booking";
 import "./Home.css"
 const Home = () => {
   const headingRef = useRef(null);
-  const [showModal, setShowModal] = useState(true); // ✅ show when page loads
+  const [currentModal, setCurrentModal] = useState(1); // 1 = first modal, 2 = second, null = none
+
 
   useEffect(() => {
     const text = headingRef.current;
@@ -72,30 +74,63 @@ const Home = () => {
       ease: "power3.out",
     });
   }, []);
+
+  // 🔹 Modal animation
   useEffect(() => {
-  if (showModal) {
-    gsap.fromTo(
-      ".modal-box",
-      { opacity: 0, scale: 0.8 },
-      { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }
-    );
-  }
-}, [showModal]);
+    if (currentModal) {
+      gsap.fromTo(
+        ".modal-box",
+        { opacity: 0, scale: 0.8 },
+        { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }
+      );
+    }
+  }, [currentModal]);
+
+  // 🔹 Auto-show second modal after 2 minutes
+  useEffect(() => {
+    let timer;
+    if (currentModal === null) {
+      // When the first modal closes, start countdown for second
+      timer = setTimeout(() => {
+        setCurrentModal(2);
+      }, 3000); // 120000ms = 2 minutes
+    }
+    return () => clearTimeout(timer);
+  }, [currentModal]);
+
+  // 🔹 Close modal handler
+  const handleClose = () => {
+    if (currentModal === 1) {
+      setCurrentModal(null); // close first, trigger timer for second
+    } else {
+      setCurrentModal(null); // close second too
+    }
+  };
 
   return (
     <div>
    <Header />
+ {currentModal === 1 && (
+        <div className="modal-overlay">
+          <div className="modal-box">
+            <button className="close-btn3" onClick={handleClose}>
+              &times;
+            </button>
+            <img src={promoImg} alt="Promo Ad 1" />
+          </div>
+        </div>
+      )}
 
-{showModal && (
-  <div className="modal-overlay">
-    <div className="modal-box">
-      <button className="close-btn3" onClick={() => setShowModal(false)}>
-        &times;
-      </button>
-      <img src={promoImg} alt="Promotion" />
-    </div>
-  </div>
-)}
+      {currentModal === 2 && (
+        <div className="modal-overlay">
+          <div className="modal-box">
+            <button className="close-btn3" onClick={handleClose}>
+              &times;
+            </button>
+            <img src={mod} alt="Promo Ad 2" />
+          </div>
+        </div>
+      )}
 
 
    	<div data-elementor-type="wp-page" data-elementor-id="10" class="elementor elementor-10">
