@@ -276,7 +276,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                     <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
-                <a href="services/building-construction/index.html">
+                <a >
                 <div class="elementskit-box-header image-box-img-left">
 
                     <img decoding="async" width="1200" height="800" src={six} class="attachment-full size-full wp-image-2186" alt="" />
@@ -296,7 +296,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                                 <div class="elementskit-box-footer">
                     <div class="box-footer">
                         <div class="btn-wraper">
-                                                            <a href="services/building-construction/index.html" class="elementskit-btn whitespace--normal">
+                                                            <a href="/services" class="elementskit-btn whitespace--normal">
                                     View More 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </a>
@@ -314,7 +314,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                     <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
-                <a href="services/architecture-design/index.html">
+                <a >
                 <div class="elementskit-box-header image-box-img-left">
 
                     <img decoding="async" width="1200" height="800" src={seven} class="attachment-full size-full wp-image-2599" alt="" />
@@ -334,7 +334,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                                 <div class="elementskit-box-footer">
                     <div class="box-footer">
                         <div class="btn-wraper">
-                                                            <a href="services/architecture-design/index.html" class="elementskit-btn whitespace--normal">
+                                                            <a href="/services" class="elementskit-btn whitespace--normal">
                                     View More 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </a>
@@ -352,7 +352,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                     <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
-                <a href="services/building-renovation/index.html">
+                <a >
                 <div class="elementskit-box-header image-box-img-left">
 
                     <img loading="lazy" decoding="async" width="1200" height="800"  src={fourtn} class="attachment-full size-full wp-image-2600" alt="" />
@@ -372,7 +372,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                                 <div class="elementskit-box-footer">
                     <div class="box-footer">
                         <div class="btn-wraper">
-                                                            <a href="services/building-renovation/index.html" class="elementskit-btn whitespace--normal">
+                                                            <a href="/services" class="elementskit-btn whitespace--normal">
                                     View More 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </a>
@@ -390,7 +390,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                     <div class="ekit-wid-con" >
             <div class="elementskit-info-image-box ekit-image-box text-left simple-card" >
 
-                <a href="services/building-maintenance/index.html">
+                <a >
                 <div class="elementskit-box-header image-box-img-left">
 
                     <img loading="lazy" decoding="async" width="1200" height="800"  src={cy} class="attachment-full size-full wp-image-2598" alt="" />
@@ -410,7 +410,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                                 <div class="elementskit-box-footer">
                     <div class="box-footer">
                         <div class="btn-wraper">
-                                                            <a href="services/building-maintenance/index.html" class="elementskit-btn whitespace--normal">
+                                                            <a href="/services" class="elementskit-btn whitespace--normal">
                                     View More 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12.75 15L15.75 12M15.75 12L12.75 9M15.75 12H8.25M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </a>
@@ -620,13 +620,13 @@ Our operations strictly follow DPR and international safety regulations, using c
 				<div class="awaiken-portfolio-grid elementor-grid awaiken-portfolio-layout-grid awaiken-portfolio-item-design-1">
 				<article class="awaiken-portfolio-grid-item  post-4672 awaiken-portfolio type-awaiken-portfolio status-publish has-post-thumbnail hentry">
 		<div class="awaiken-portfolio-grid-item__wrapper">
-				<a class="awaiken-portfolio-grid-item__link" href="projects/aspen-heights/index.html">
+				<a class="awaiken-portfolio-grid-item__link" >
 			<div class="awaiken-portfolio-grid-item__img">
 				<img loading="lazy" decoding="async" width="1200" height="800" src={t5} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
 		</a>
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
-			<a class="awaiken-portfolio-grid-item__link" href="projects/aspen-heights/index.html">
+			<a class="awaiken-portfolio-grid-item__link" >
 				<h4 class="awaiken-portfolio-grid-item__title">1.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
@@ -657,20 +657,20 @@ Our operations strictly follow DPR and international safety regulations, using c
 		</div>
 
 		<div class="awaiken-portfolio-grid-item__readmore">
-			<a class="awaiken-portfolio-grid-item__link btn-default" href="projects/forest-hill-towers/index.html">view more</a>
+			<a class="awaiken-portfolio-grid-item__link btn-default" href="/pricing">view more</a>
 		</div>
 				</div>
 				</div>
 		</article>
 				<article class="awaiken-portfolio-grid-item  post-4668 awaiken-portfolio type-awaiken-portfolio status-publish has-post-thumbnail hentry">
 		<div class="awaiken-portfolio-grid-item__wrapper">
-				<a class="awaiken-portfolio-grid-item__link" href="projects/bayside-residences/index.html">
+				<a class="awaiken-portfolio-grid-item__link" >
 			<div class="awaiken-portfolio-grid-item__img">
 				<img loading="lazy" decoding="async" width="1200" height="800" src={t3} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
 		</a>
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
-			<a class="awaiken-portfolio-grid-item__link" href="projects/bayside-residences/index.html">
+			<a class="awaiken-portfolio-grid-item__link" >
 				<h4 class="awaiken-portfolio-grid-item__title">3.5 Tons</h4>
 			
 			</a>
@@ -680,20 +680,20 @@ Our operations strictly follow DPR and international safety regulations, using c
 		</div>
 
 		<div class="awaiken-portfolio-grid-item__readmore">
-			<a class="awaiken-portfolio-grid-item__link btn-default" href="projects/bayside-residences/index.html">view more</a>
+			<a class="awaiken-portfolio-grid-item__link btn-default" >view more</a>
 		</div>
 				</div>
 				</div>
 		</article>
 				<article class="awaiken-portfolio-grid-item  post-4666 awaiken-portfolio type-awaiken-portfolio status-publish has-post-thumbnail hentry">
 		<div class="awaiken-portfolio-grid-item__wrapper">
-				<a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
+				<a class="awaiken-portfolio-grid-item__link" >
 			<div class="awaiken-portfolio-grid-item__img">
 				<img loading="lazy" decoding="async" width="1200" height="800" src={t1} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
 		</a>
 				<div class="awaiken-portfolio-grid-item__content">
 				<div class="awaiken-portfolio-grid-title__wrap">
-			<a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
+			<a class="awaiken-portfolio-grid-item__link" >
 				<h4 class="awaiken-portfolio-grid-item__title">Twin 3.5 Tons</h4>
 			</a>
 					<div class="awaiken-portfolio-grid-item__excerpt">
@@ -702,7 +702,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 		</div>
 
 		<div class="awaiken-portfolio-grid-item__readmore">
-			<a class="awaiken-portfolio-grid-item__link btn-default" href="projects/parkview-plaza/index.html">view more</a>
+			<a class="awaiken-portfolio-grid-item__link btn-default" >view more</a>
 		</div>
 				</div>
 				</div>
