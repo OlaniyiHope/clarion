@@ -47,17 +47,17 @@ const Pricing = () => {
     }
   }, [currentModal]);
 
-  // 🔹 Auto-show second modal after 2 minutes
-  useEffect(() => {
-    let timer;
-    if (currentModal === null) {
-      // When the first modal closes, start countdown for second
-      timer = setTimeout(() => {
-        setCurrentModal(2);
-      }, 3000); // 120000ms = 2 minutes
-    }
-    return () => clearTimeout(timer);
-  }, [currentModal]);
+//   // 🔹 Auto-show second modal after 2 minutes
+//   useEffect(() => {
+//     let timer;
+//     if (currentModal === null) {
+//       // When the first modal closes, start countdown for second
+//       timer = setTimeout(() => {
+//         setCurrentModal(2);
+//       }, 3000); // 120000ms = 2 minutes
+//     }
+//     return () => clearTimeout(timer);
+//   }, [currentModal]);
   const handleClose = () => {
     if (currentModal === 1) {
       setCurrentModal(2); // Show second modal after first closes
