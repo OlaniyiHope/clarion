@@ -17,6 +17,7 @@ import twentys from "./img/26.JPG"
 import two from "./img/2.JPG"
 import sa from "./img/sb.png"
 import con from "./img/con.png"
+import t8 from "./img/12.JPG"
 import cus from "./img/cus.png"
 import cy from "./img/5.JPG"
 import team3 from "./img/team3.JPG"
@@ -155,7 +156,7 @@ const About = () => {
 		<div class="elementor-element elementor-element-90392bd e-con-full e-flex e-con e-child" data-id="90392bd" data-element_type="container">
 				<div class="elementor-element elementor-element-b915904 image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="b915904" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="555" height="468" src="../wp-content/uploads/2024/06/company-history-img.jpg" class="attachment-full size-full wp-image-1116" alt="" />															</div>
+															<img decoding="async" width="555" height="468" src={t8} class="attachment-full size-full wp-image-1116" alt="" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-5ea81ce elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-absolute about-counter elementor-widget elementor-widget-counter" data-id="5ea81ce" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="counter.default">
 				<div class="elementor-widget-container">
