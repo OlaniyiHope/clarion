@@ -57,7 +57,7 @@ const Blog = () => {
 		</div>
 	</div>
 
-	<div class="page-content">
+	{/* <div class="page-content">
 		<div class="page-blog-archive">
 			<div class="container">
 				<div class="row">
@@ -112,7 +112,17 @@ const Blog = () => {
 								</div>
 			</div>
 		</div>
-	</div>
+	</div> */}
+<div class="page-content">
+		<div class="page-blog-archive">
+			<div class="container">
+
+             <h2 style={{textAlign: "center"}}>Coming Soon</h2>       
+            </div>
+
+    </div>
+    </div>
+    
 </main>
 
            <Footer />
