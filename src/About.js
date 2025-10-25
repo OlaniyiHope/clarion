@@ -21,7 +21,7 @@ import t8 from "./img/12.JPG"
 import cus from "./img/cus.png"
 import cy from "./img/5.JPG"
 import team3 from "./img/team3.JPG"
-import team2 from "./img/team3.JPG"
+import team2 from "./img/team2.JPG"
 import team1 from "./img/team1.JPG"
 import promoImg from "./img/ja.png"; // ✅ path to your image
 import { gsap } from "gsap"; 
