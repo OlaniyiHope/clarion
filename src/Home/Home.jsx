@@ -17,6 +17,7 @@ import pump from "../img/pump.JPG"
 import t8 from "../img/t8.JPG"
 import cus from "../img/cus.png"
 import con from "../img/con.png"
+import ta from "../img/ta.png"
 import nine from "../img/9.JPG"
 import twelve from "../img/12.JPG"
 import fourtn from "../img/14.JPG"
@@ -128,6 +129,16 @@ const Home = () => {
               &times;
             </button>
             <img src={mod} alt="Promo Ad 2" />
+          </div>
+        </div>
+      )}
+      {currentModal === 3 && (
+        <div className="modal-overlay">
+          <div className="modal-box">
+            <button className="close-btn3" onClick={handleClose}>
+              &times;
+            </button>
+            <img src={ta} alt="Promo Ad 3" />
           </div>
         </div>
       )}
