@@ -53,14 +53,16 @@ const Blog = () => {
     return () => clearTimeout(timer);
   }, [currentModal]);
 
-  // 🔹 Close modal handler
   const handleClose = () => {
     if (currentModal === 1) {
-      setCurrentModal(null); // close first, trigger timer for second
+      setCurrentModal(2); // Show second modal after first closes
+    } else if (currentModal === 2) {
+      setCurrentModal(3); // Show third modal after second closes
     } else {
-      setCurrentModal(null); // close second too
+      setCurrentModal(null); // Stop after third modal
     }
   };
+
 
 
   return (
