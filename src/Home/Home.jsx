@@ -9,8 +9,12 @@ import one from "../img/1.png"
 import six from "../img/sa.JPG"
 import seven from "../img/7.JPG"
 import t1 from "../img/t1.JPG"
+import t2 from "../img/t2.JPG"
 import t3 from "../img/t3.JPG"
+import t4 from "../img/t4.JPG"
 import t5 from "../img/t5.JPG"
+import cus from "../img/cus.png"
+import con from "../img/con.png"
 import nine from "../img/9.JPG"
 import twelve from "../img/12.JPG"
 import fourtn from "../img/14.JPG"
@@ -754,7 +758,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 		<div class="elementor-element elementor-element-1cbbf8f e-con-full e-flex e-con e-child" data-id="1cbbf8f" data-element_type="container">
 				<div class="elementor-element elementor-element-2e318dc at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="2e318dc" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="483" height="455" src="wp-content/uploads/2024/06/cta-box-img.png" class="attachment-large size-large wp-image-1251" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="283" height="355" src={con} class="attachment-large size-large wp-image-1251"  alt="" />															</div>
 				</div>
 				</div>
 					</div>
@@ -937,21 +941,21 @@ Our operations strictly follow DPR and international safety regulations, using c
 		<div class="elementor-element elementor-element-cf92a7a e-con-full e-flex e-con e-child" data-id="cf92a7a" data-element_type="container">
 				<div class="elementor-element elementor-element-300c568 image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="300c568" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="268" height="268" src="wp-content/uploads/2024/06/our-faqs-img-1.jpg" class="attachment-large size-large wp-image-1835" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="268" height="268" src={t1} class="attachment-large size-large wp-image-1835" alt="" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-3f41a94 image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="3f41a94" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="203" height="197" src="wp-content/uploads/2024/06/our-faqs-img-2.jpg" class="attachment-full size-full wp-image-1837" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="203" height="197" src={t2} class="attachment-full size-full wp-image-1837" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-d8cafeb e-con-full e-flex e-con e-child" data-id="d8cafeb" data-element_type="container">
 				<div class="elementor-element elementor-element-2474a8b image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="2474a8b" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="268" height="268" src="wp-content/uploads/2024/06/our-faqs-img-3.jpg" class="attachment-full size-full wp-image-1832" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="268" height="268" src={t3} class="attachment-full size-full wp-image-1832" alt="" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-19fe1fc at-image-animation at-animation-image-style-1 image-anime elementor-widget elementor-widget-image" data-id="19fe1fc" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="203" height="197" src="wp-content/uploads/2024/06/our-faqs-img-4.jpg" class="attachment-full size-full wp-image-1833" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="203" height="197" src={t4} class="attachment-full size-full wp-image-1833" alt="" />															</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-28b912b elementor-view-stacked elementor-absolute our-faqs-bulitup elementor-shape-circle elementor-widget elementor-widget-icon" data-id="28b912b" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon.default">
@@ -1297,7 +1301,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				</div>
 				<div class="elementor-element elementor-element-48600bf at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="48600bf" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="301" height="420" src="wp-content/uploads/2024/06/contact-info-img.png" class="attachment-full size-full wp-image-1857" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="301" height="420" src={cus} class="attachment-full size-full wp-image-1857" alt="" />															</div>
 				</div>
 				</div>
 				</div>
