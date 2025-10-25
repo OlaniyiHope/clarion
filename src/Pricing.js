@@ -15,14 +15,17 @@ import ninetn from "./img/19.JPG"
 import fiftn from "./img/15.JPG"
 import twentys from "./img/26.JPG"
 import two from "./img/2.JPG"
+import fours from "./img/9.JPG"
+import teen from "./img/14.JPG"
 import sa from "./img/sb.png"
 import t1 from "./img/t1.JPG"
 import t3 from "./img/t3.JPG"
+import t6 from "./img/t6.JPG"
 import t5 from "./img/t5.JPG"
 import cy from "./img/5.JPG"
 import promoImg from "./img/ja.png"; // ✅ path to your image
 import headerBg from "./page-header-bg.jpg";
-
+import pump from "./img/pump.JPG"
 
 const Pricing = () => {
   const headingRef = useRef(null);
@@ -164,7 +167,7 @@ const Pricing = () => {
                 <h4 class="awaiken-portfolio-grid-item__title">Twin 2.5 Tons</h4>
             </a>
                     <div class="awaiken-portfolio-grid-item__excerpt">
-                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N18,000,000</p>
+                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N15,000,000</p>
             </div>
         </div>
 
@@ -178,7 +181,7 @@ const Pricing = () => {
         <div class="awaiken-portfolio-grid-item__wrapper">
                 <a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
             <div class="awaiken-portfolio-grid-item__img">
-                <img loading="lazy" decoding="async" width="1200" height="800" src={t1} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+                <img loading="lazy" decoding="async" width="1200" height="800" src={fours} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
         </a>
                 <div class="awaiken-portfolio-grid-item__content">
                 <div class="awaiken-portfolio-grid-title__wrap">
@@ -200,7 +203,7 @@ const Pricing = () => {
         <div class="awaiken-portfolio-grid-item__wrapper">
                 <a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
             <div class="awaiken-portfolio-grid-item__img">
-                <img loading="lazy" decoding="async" width="1200" height="800" src={t1} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+                <img loading="lazy" decoding="async" width="1200" height="800" src={teen} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
         </a>
                 <div class="awaiken-portfolio-grid-item__content">
                 <div class="awaiken-portfolio-grid-title__wrap">
@@ -208,7 +211,7 @@ const Pricing = () => {
                 <h4 class="awaiken-portfolio-grid-item__title">5 Tons</h4>
             </a>
                     <div class="awaiken-portfolio-grid-item__excerpt">
-                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N18,000,000</p>
+                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N17,000,000</p>
             </div>
         </div>
 
@@ -222,7 +225,7 @@ const Pricing = () => {
         <div class="awaiken-portfolio-grid-item__wrapper">
                 <a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
             <div class="awaiken-portfolio-grid-item__img">
-                <img loading="lazy" decoding="async" width="1200" height="800" src={t1} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+                <img loading="lazy" decoding="async" width="1200" height="800" src={t6} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
         </a>
                 <div class="awaiken-portfolio-grid-item__content">
                 <div class="awaiken-portfolio-grid-title__wrap">
@@ -230,7 +233,7 @@ const Pricing = () => {
                 <h4 class="awaiken-portfolio-grid-item__title">10 Tons</h4>
             </a>
                     <div class="awaiken-portfolio-grid-item__excerpt">
-                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N18,000,000</p>
+                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N38,000,000</p>
             </div>
         </div>
 
@@ -244,15 +247,15 @@ const Pricing = () => {
         <div class="awaiken-portfolio-grid-item__wrapper">
                 <a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
             <div class="awaiken-portfolio-grid-item__img">
-                <img loading="lazy" decoding="async" width="1200" height="800" src={t1} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+                <img loading="lazy" decoding="async" width="1200" height="800" src={pump} class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
         </a>
                 <div class="awaiken-portfolio-grid-item__content">
                 <div class="awaiken-portfolio-grid-title__wrap">
             <a class="awaiken-portfolio-grid-item__link" href="projects/parkview-plaza/index.html">
-                <h4 class="awaiken-portfolio-grid-item__title">Twin 5 Tons</h4>
+                <h4 class="awaiken-portfolio-grid-item__title">Pumps</h4>
             </a>
                     <div class="awaiken-portfolio-grid-item__excerpt">
-                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N18,000,000</p>
+                <p  style={{color: "white", fontWeight: "900", fontSize: "20px"}}>N7,000,000</p>
             </div>
         </div>
 

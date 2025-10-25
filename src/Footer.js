@@ -29,12 +29,12 @@ const Footer = () => {
 					<div class="ekit-wid-con">        <div 
             class="ekit-vertical-main-menu-wraper   badge-position-left"
         >
-                        <div class="ekit-vertical-menu-container"><ul id="menu-our-services-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-5700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5700 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="services/building-construction/index.html" class="ekit-menu-nav-link">Skid Plant Setup</a></li>
-<li id="menu-item-5701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5701 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="services/architecture-design/index.html" class="ekit-menu-nav-link">Central Gas System</a></li>
-<li id="menu-item-5702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5702 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="services/building-renovation/index.html" class="ekit-menu-nav-link">Fuel & Storage Facility</a></li>
-<li id="menu-item-5703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5703 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="services/flooring-roofing/index.html" class="ekit-menu-nav-link">Procurement and Supply </a></li>
-<li id="menu-item-5704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5704 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="services/building-maintenance/index.html" class="ekit-menu-nav-link"> Maintenance and Repair</a></li>
-<li id="menu-item-5704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5704 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="services/building-maintenance/index.html" class="ekit-menu-nav-link"> Consultancy and Training</a></li>
+                        <div class="ekit-vertical-menu-container"><ul id="menu-our-services-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-5700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5700 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link">Skid Plant Setup</a></li>
+<li id="menu-item-5701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5701 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link">Central Gas System</a></li>
+<li id="menu-item-5702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5702 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link">Fuel & Storage Facility</a></li>
+<li id="menu-item-5703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5703 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link">Procurement and Supply </a></li>
+<li id="menu-item-5704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5704 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link"> Maintenance and Repair</a></li>
+<li id="menu-item-5704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5704 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/services" class="ekit-menu-nav-link"> Consultancy and Training</a></li>
 </ul></div>        </div>
         </div>				</div>
 				</div>

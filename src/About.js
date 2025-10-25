@@ -16,6 +16,8 @@ import fiftn from "./img/15.JPG"
 import twentys from "./img/26.JPG"
 import two from "./img/2.JPG"
 import sa from "./img/sb.png"
+import con from "./img/con.png"
+import cus from "./img/cus.png"
 import cy from "./img/5.JPG"
 import team3 from "./img/team3.JPG"
 import team2 from "./img/team3.JPG"
@@ -384,7 +386,7 @@ Invest in a profitable future with our expert gas plant construction and install
 		<div class="elementor-element elementor-element-70f6b56 e-con-full e-flex e-con e-child" data-id="70f6b56" data-element_type="container">
 				<div class="elementor-element elementor-element-1ce5dd6 at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="1ce5dd6" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="483" height="455" src="../wp-content/uploads/2024/06/cta-box-img.png" class="attachment-large size-large wp-image-1251" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="283" height="255" src={con} class="attachment-large size-large wp-image-1251" alt="" />															</div>
 				</div>
 				</div>
 					</div>
@@ -717,7 +719,7 @@ Invest in a profitable future with our expert gas plant construction and install
 				</div>
 				<div class="elementor-element elementor-element-f0485c9 at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="f0485c9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="301" height="420" src="../wp-content/uploads/2024/06/contact-info-img.png" class="attachment-full size-full wp-image-1857" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="301" height="420" src={cus} class="attachment-full size-full wp-image-1857" alt="" />															</div>
 				</div>
 				</div>
 				</div>

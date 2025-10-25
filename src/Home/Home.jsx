@@ -13,6 +13,8 @@ import t2 from "../img/t2.JPG"
 import t3 from "../img/t3.JPG"
 import t4 from "../img/t4.JPG"
 import t5 from "../img/t5.JPG"
+import pump from "../img/pump.JPG"
+import t8 from "../img/t8.JPG"
 import cus from "../img/cus.png"
 import con from "../img/con.png"
 import nine from "../img/9.JPG"
@@ -499,7 +501,7 @@ With years of hands-on experience in designing, constructing, and maintaining ga
 		<div class="elementor-element elementor-element-fd70748 e-con-full e-flex  e-con e-child" data-id="fd70748" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
 				<div class="elementor-element elementor-element-5c0a15b why-choose-us-img image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="5c0a15b" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="413" height="461"  src={sa} class="attachment-full size-full wp-image-1087" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="413" height="461"  src={pump} class="attachment-full size-full wp-image-1087" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-a0233e8 e-con-full e-flex  e-con e-child" data-id="a0233e8" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
@@ -543,7 +545,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 		<div class="elementor-element elementor-element-4a50d54 e-con-full e-flex  e-con e-child" data-id="4a50d54" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
 				<div class="elementor-element elementor-element-c15b894 why-choose-us-img image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="c15b894" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="413" height="461" src={ninetn} class="attachment-full size-full wp-image-1085" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="413" height="461" src={t5} class="attachment-full size-full wp-image-1085" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-f2fa51c e-con-full e-flex  e-con e-child" data-id="f2fa51c" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
@@ -586,7 +588,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 		<div class="elementor-element elementor-element-a4e8952 e-con-full e-flex  e-con e-child" data-id="a4e8952" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:500}">
 				<div class="elementor-element elementor-element-59cc9d2 why-choose-us-img image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="59cc9d2" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="413" height="461" src={fiftn} class="attachment-full size-full wp-image-1086" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="413" height="461" src={t8} class="attachment-full size-full wp-image-1086" alt="" />															</div>
 				</div>
 				</div>
 				</div>

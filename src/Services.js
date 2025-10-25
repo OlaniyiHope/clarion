@@ -14,6 +14,8 @@ import fourtn from "./img/14.JPG"
 import ninetn from "./img/19.JPG"
 import fiftn from "./img/15.JPG"
 import twentys from "./img/26.JPG"
+import con from "./img/con.png"
+import cus from "./img/cus.png"
 import two from "./img/2.JPG"
 import sa from "./img/sb.png"
 import cy from "./img/5.JPG"
@@ -120,21 +122,21 @@ const Services = () => {
                 	<div class="elementor-element elementor-element-b55975e e-con-full e-flex e-con e-child" data-id="b55975e" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-159aa51 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="159aa51" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">04.</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">05.</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-6a72015 elementor-widget elementor-widget-image-box" data-id="6a72015" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">  Fuel and Storage Facilities</h3><p class="elementor-image-box-description">                 Filling Stations, tank farms, storage tanks and dispensing systems   </p></div></div>				</div>
+					<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">  Maintenance and Repair</h3><p class="elementor-image-box-description">                Servicing, Leak Detection, Safety Audit and Upgrade  </p></div></div>				</div>
 				</div>
 				</div>
                 	<div class="elementor-element elementor-element-b55975e e-con-full e-flex e-con e-child" data-id="b55975e" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 				<div class="elementor-element elementor-element-159aa51 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="159aa51" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">04.</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">06.</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-6a72015 elementor-widget elementor-widget-image-box" data-id="6a72015" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">  Fuel and Storage Facilities</h3><p class="elementor-image-box-description">                 Filling Stations, tank farms, storage tanks and dispensing systems   </p></div></div>				</div>
+					<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">  Consultancy and Training</h3><p class="elementor-image-box-description">           Licensing Support, Feasibility Studies, Operator training and Safety Maintenance </p></div></div>				</div>
 				</div>
 				</div>
 				</div>
@@ -169,7 +171,7 @@ const Services = () => {
 		<div class="elementor-element elementor-element-37eb797 e-con-full e-flex e-con e-child" data-id="37eb797" data-element_type="container">
 				<div class="elementor-element elementor-element-adbd00d at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="adbd00d" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="483" height="455" src="../../wp-content/uploads/2024/06/cta-box-img.png" class="attachment-large size-large wp-image-1251" alt="" />															</div>
+															<img decoding="async" width="283" height="255" src={con} class="attachment-large size-large wp-image-1251" alt="" />															</div>
 				</div>
 				</div>
 					</div>
@@ -223,7 +225,7 @@ const Services = () => {
 				</div>
 				<div class="elementor-element elementor-element-7dd5f0f at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="7dd5f0f" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="301" height="420" src="../../wp-content/uploads/2024/06/contact-info-img.png" class="attachment-full size-full wp-image-1857" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="301" height="420" src={cus} class="attachment-full size-full wp-image-1857" alt="" />															</div>
 				</div>
 				</div>
 				</div>
