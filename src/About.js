@@ -265,8 +265,13 @@ const About = () => {
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Simple actions make a difference. It starts and ends with each employee striving to work safer every single day so they can return.					</p>
-				
+					At Clarion Global Energy Limited, our mission is to build and invest in energy systems that work — clean, reliable, and profitable.
+
+We bring hands-on expertise, integrity, and detail into every LPG construction and investment project we handle.
+
+As we expand into other energy sectors, our goal remains the same: to deliver value that’s seen, felt, and lasting
+
+</p>
 			</div>
 			
 		</div>
@@ -291,8 +296,9 @@ const About = () => {
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Simple actions make a difference. It starts and ends with each employee striving to work safer every single day so they can return.					</p>
-				
+					To be a leading force in Africa’s energy space — starting from LPG construction and investment, and growing into a trusted brand for innovative, safe, and sustainable energy solutions that power lives and businesses.
+
+</p>
 			</div>
 			
 		</div>
@@ -317,7 +323,12 @@ const About = () => {
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Simple actions make a difference. It starts and ends with each employee striving to work safer every single day so they can return.					</p>
+						 <strong>Integrity: </strong>
+We are transparent, truthful, and accountable in everything we do — from planning to delivery. 	 <strong>Excellence: </strong>
+We believe in doing things right, not rushed. Every project carries our name, and we make sure it’s done well.  <strong>Safety: </strong> 
+Energy can be powerful — and risky. We treat every site and every client’s safety as top priority. <strong>Commitment: </strong>  
+We don’t just sign projects/contract; we stay involved till the job speaks for itself.
+                        		</p>
 				
 			</div>
 			
