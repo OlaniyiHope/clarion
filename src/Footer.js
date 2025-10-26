@@ -145,7 +145,7 @@ const Footer = () => {
 					<div class="ekit-wid-con" >			 <ul class="ekit_social_media">
 														<li class="elementor-repeater-item-4b0caec">
 					    <a
-						href="https://www.instagram.com/ClarionGlobalEnergyLimited" aria-label="Imstagram" class="1" >
+						href="https://www.instagram.com/clarion_global_energy" aria-label="Imstagram" class="1" >
 							
 							<i aria-hidden="true" class="icon icon-instagram-1"></i>
                                                                                                             </a>

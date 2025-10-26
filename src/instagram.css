@@ -1,0 +1,24 @@
+.header-instagram {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  z-index: 9999;
+}
+
+.instagram-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.header-instagram em {
+  display: none;
+}

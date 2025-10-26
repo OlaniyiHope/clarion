@@ -1,0 +1,26 @@
+.header-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0084ce;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(13, 126, 178, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  z-index: 9999;
+}
+
+.whatsapp-icon {
+  width: 32px;
+  height: 32px;
+}
+.whatsapp-icon path {
+  fill: white !important;
+}
+.header-whatsapp em {
+  display: none; /* Hide the text if you only want the icon */
+}
