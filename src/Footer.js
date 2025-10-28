@@ -120,8 +120,8 @@ const Footer = () => {
                 </div>
           </div>
                         <div class="box-body">
-                            <h3 class="elementskit-info-box-title">
-            No.4 Ayanboye Street, Off Faramobi Ajoke Street, Anthony Village, Lagos.               </h3>
+                            {/*<h3 class="elementskit-info-box-title">
+            No.4 Ayanboye Street, Off Faramobi Ajoke Street, Anthony Village, Lagos.               </h3>*/}
                                             </div>
         
         
