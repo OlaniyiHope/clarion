@@ -23,12 +23,12 @@ import t3 from "./img/t3.JPG"
 import t6 from "./img/t6.JPG"
 import t5 from "./img/t5.JPG"
 import cy from "./img/5.JPG"
-import promoImg from "./img/ja.png"; // ✅ path to your image
+import promoImg from "./img/new3.png"; // ✅ path to your image
 import headerBg from "./page-header-bg.jpg";
 import pump from "./img/pump.JPG"
 import { gsap } from "gsap"; 
-import mod from "./img/mod.png"
-import ta from "./img/ta.png"
+import mod from "./img/new2.png"
+import ta from "./img/new1.png"
 import "./instagram.css";
 import "./whatsapp.css"
 const Pricing = () => {

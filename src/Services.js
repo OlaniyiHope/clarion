@@ -19,10 +19,10 @@ import cus from "./img/cus.png"
 import two from "./img/2.JPG"
 import sa from "./img/sb.png"
 import cy from "./img/5.JPG"
-import promoImg from "./img/ja.png"; // ✅ path to your image
+import promoImg from "./img/new3.png"; // ✅ path to your image
 import { gsap } from "gsap"; 
-import mod from "./img/mod.png"
-import ta from "./img/ta.png"
+import mod from "./img/new2.png"
+import ta from "./img/new1.png"
 import "./instagram.css";
 import "./whatsapp.css"
 
