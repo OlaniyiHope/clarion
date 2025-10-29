@@ -17,7 +17,7 @@ import pump from "../img/pump.JPG"
 import t8 from "../img/t8.JPG"
 import cus from "../img/cus.png"
 import con from "../img/con.png"
-import ta from "../img/ta.png"
+import ta from "../img/new3.png"
 import nine from "../img/9.JPG"
 import twelve from "../img/12.JPG"
 import fourtn from "../img/14.JPG"
@@ -28,8 +28,8 @@ import twentys from "../img/26.JPG"
 import two from "../img/2.JPG"
 import sa from "../img/sb.png"
 import cy from "../img/5.JPG"
-import mod from "../img/mod.png"
-import promoImg from "../img/ja.png"; // ✅ path to your image
+import mod from "../img/new1.png"
+import promoImg from "../img/new2.png"; // ✅ path to your image
 import { gsap } from "gsap"; 
 import ServiceHome from "./Booking";
 import "./Home.css"
@@ -196,6 +196,37 @@ const Home = () => {
 
 
    <Header />
+ {currentModal === 1 && (
+        <div className="modal-overlay">
+          <div className="modal-box">
+            <button className="close-btn3" onClick={handleClose}>
+              &times;
+            </button>
+            <img src={promoImg} alt="Promo Ad 1" />
+          </div>
+        </div>
+      )}
+
+      {currentModal === 2 && (
+        <div className="modal-overlay">
+          <div className="modal-box">
+            <button className="close-btn3" onClick={handleClose}>
+              &times;
+            </button>
+            <img src={mod} alt="Promo Ad 2" />
+          </div>
+        </div>
+      )}
+      {currentModal === 3 && (
+        <div className="modal-overlay">
+          <div className="modal-box">
+            <button className="close-btn3" onClick={handleClose}>
+              &times;
+            </button>
+            <img src={ta} alt="Promo Ad 3" />
+          </div>
+        </div>
+      )}
 
 
    	<div data-elementor-type="wp-page" data-elementor-id="10" class="elementor elementor-10">
