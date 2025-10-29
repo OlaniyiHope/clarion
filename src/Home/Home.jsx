@@ -196,37 +196,6 @@ const Home = () => {
 
 
    <Header />
- {currentModal === 1 && (
-        <div className="modal-overlay">
-          <div className="modal-box">
-            <button className="close-btn3" onClick={handleClose}>
-              &times;
-            </button>
-            <img src={promoImg} alt="Promo Ad 1" />
-          </div>
-        </div>
-      )}
-
-      {currentModal === 2 && (
-        <div className="modal-overlay">
-          <div className="modal-box">
-            <button className="close-btn3" onClick={handleClose}>
-              &times;
-            </button>
-            <img src={mod} alt="Promo Ad 2" />
-          </div>
-        </div>
-      )}
-      {currentModal === 3 && (
-        <div className="modal-overlay">
-          <div className="modal-box">
-            <button className="close-btn3" onClick={handleClose}>
-              &times;
-            </button>
-            <img src={ta} alt="Promo Ad 3" />
-          </div>
-        </div>
-      )}
 
 
    	<div data-elementor-type="wp-page" data-elementor-id="10" class="elementor elementor-10">
