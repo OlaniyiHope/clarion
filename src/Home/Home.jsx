@@ -6,7 +6,7 @@ import park from "./edu.PNG";
 import Test from "../Test";
 import Footer from "../Footer";
 import one from "../img/1.png"
-import six from "../img/sa.png"
+import six from "../img/sa2.jpg"
 import seven from "../img/7.png"
 import t1 from "../img/t1.png"
 import t2 from "../img/t2.png"
