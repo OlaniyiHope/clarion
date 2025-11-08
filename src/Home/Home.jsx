@@ -934,7 +934,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>“Working with Clarion Global Energy felt different from day one. Peculiar personally showed up on-site several Ames just to make sure everything was done exactly as discussed. You can tell she’s not just aFer compleAng a project, she’s aFer geHng it right. Every detail was handled with so much care, and the result was even beIer than what I expected.”</p></div>
+															<div class="elementskit-commentor-content"><p>“Working with Clarion Global Energy felt different from day one. Peculiar personally showed up on-site several times just to make sure everything was done exactly as discussed. You can tell she’s not just aFer compleAng a project, she’s aFer geHng it right. Every detail was handled with so much care, and the result was even beIer than what I expected.”</p></div>
 							
 							{/*<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
