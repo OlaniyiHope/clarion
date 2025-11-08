@@ -420,22 +420,7 @@ We don’t just sign projects/contract; we stay involved till the job speaks for
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-5222a0f e-con-full intro-video-box e-flex e-con e-parent" data-id="5222a0f" data-element_type="container">
-				<div class="elementor-element elementor-element-4c21876 video-bg-img image-anime at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="4c21876" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="1920" height="768" src="../wp-content/uploads/2024/06/video-bg.jpg" class="attachment-full size-full wp-image-1650" alt="" />															</div>
-				</div>
-				<div class="elementor-element elementor-element-2a9e333 elementor-absolute video-content elementor-widget elementor-widget-elementskit-video" data-id="2a9e333" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-video.default">
-				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >		<div class="video-content" data-video-player="[]" data-video-setting="{&quot;videoVolume&quot;:&quot;horizontal&quot;,&quot;startVolume&quot;:0.8000000000000000444089209850062616169452667236328125,&quot;videoType&quot;:&quot;iframe&quot;,&quot;videoClass&quot;:&quot;mfp-fade&quot;,&quot;popupIcon&quot;:{&quot;value&quot;:&quot;icon icon-cancel&quot;,&quot;library&quot;:&quot;ekiticons&quot;},&quot;videoStyle&quot;:&quot;popup&quot;,&quot;videoTypeName&quot;:&quot;youtube&quot;,&quot;autoplay&quot;:false,&quot;muted&quot;:false,&quot;loop&quot;:false}">
-			
-<a class="ekit_icon_button glow-ripple ekit-video-popup ekit-video-popup-btn" href="https://www.youtube.com/embed/VhBl3dHT5SY?feature=oembed?playlist=VhBl3dHT5SY&amp;mute=0&amp;autoplay=0&amp;loop=no&amp;controls=0&amp;start=0&amp;end=" aria-label="video-popup">
-				<svg aria-hidden="true" class="e-font-icon-svg e-fas-play" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>		
-			</a>
-					</div>
-		</div>				</div>
-				</div>
-				</div>
+	
 		{/* <div class="elementor-element elementor-element-6d424a6 e-flex e-con-boxed e-con e-parent" data-id="6d424a6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-b15dc1b e-con-full e-flex e-con e-child" data-id="b15dc1b" data-element_type="container">
