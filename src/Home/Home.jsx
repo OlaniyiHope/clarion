@@ -7,7 +7,7 @@ import Test from "../Test";
 import Footer from "../Footer";
 import one from "../img/1.png"
 import six from "../img/sa2.jpg"
-import seven from "../img/7.png"
+import seven from "../img/cgs.jpg"
 import t1 from "../img/t1.png"
 import t2 from "../img/t2.png"
 import t3 from "../img/t3.png"
@@ -455,7 +455,7 @@ We are a trusted name in gas infrastructure development and energy logistics, sp
                     <div class="elementskit-box-content ekit-image-box-body-inner">
                                                 <h3 class="elementskit-info-box-title">
 
-                     Central Gas Systems
+                     Centralize Gas Systems
                         
                     </h3>
                                                             <div class="elementskit-box-style-content">
