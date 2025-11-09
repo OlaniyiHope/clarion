@@ -16,6 +16,8 @@ import fiftn from "./img/15.JPG"
 import twentys from "./img/26.JPG"
 import two from "./img/2.JPG"
 import sa from "./img/sb.png"
+import s1 from "./img/s1.jpg"
+import s2 from "./img/s2.jpeg"
 import con from "./img/con.png"
 import t8 from "./img/12.JPG"
 import cus from "./img/cus.png"
@@ -773,6 +775,184 @@ Invest in a profitable future with our expert gas plant construction and install
 							<div class="ekit-team-modal-info has-img">
 								<h2 class="ekit-team-modal-title">		Eunice I. Taiwo</h2>
 								<p class="ekit-team-modal-position">Business Analyst</p>
+
+								<div class="ekit-team-modal-content">
+									A small river named Duden flows by their place and supplies it with the necessary								</div>
+
+																	<ul class="ekit-team-modal-list">
+																					<li><strong>Phone:</strong><a href="tel:+1 (859) 254-6589">+1 (859) 254-6589</a></li>
+										
+																					<li><strong>Email:</strong><a href="mailto:info@example.com">info@example.com</a></li>
+																			</ul>
+								
+								<ul class="ekit-team-social-list">
+			<li class="elementor-repeater-item-e8d6be4">
+			<a href="#" aria-label="Facebook">
+				<i aria-hidden="true" class="icon icon-facebook"></i>			</a>
+		</li>
+			<li class="elementor-repeater-item-45b3d13">
+			<a href="#" aria-label="twitter">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>			</a>
+		</li>
+			<li class="elementor-repeater-item-8edd9a4">
+			<a href="https://facebook.com/" aria-label="instagram">
+				<i aria-hidden="true" class="icon icon-instagram-1"></i>			</a>
+		</li>
+	</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>				</div>
+				</div>
+				</div>
+					<div class="elementor-element elementor-element-976af91 e-con-full e-flex  e-con e-child" data-id="976af91" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+				<div class="elementor-element elementor-element-f905512 team-member-item elementor-widget elementor-widget-elementskit-team" data-id="f905512" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-left ekit-team-style-default">
+							<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_f905512_723" class="ekit-team-popup">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block"  data-toggle="modal" data-target="ekit_team_modal_#f905512_723" >
+					<img loading="lazy" decoding="async" width="412" height="379" src={s1} class="attachment-full size-full wp-image-415" alt="" />				</div>
+							</a>
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_f905512_723" class="ekit-team-popup">
+					Inemugha Mrecy Azibakeneobebh						</a>
+											</h2>
+					
+                    
+								<p class="profile-designation">Sales Strategist/Manager</p>
+									</div>
+
+									<div class="profile-footer">
+						<ul class="ekit-team-social-list">
+			<li class="elementor-repeater-item-e8d6be4">
+			<a href="#" aria-label="Facebook">
+				<i aria-hidden="true" class="icon icon-facebook"></i>			</a>
+		</li>
+			<li class="elementor-repeater-item-45b3d13">
+			<a href="#" aria-label="twitter">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>			</a>
+		</li>
+			<li class="elementor-repeater-item-8edd9a4">
+			<a href="https://facebook.com/" aria-label="instagram">
+				<i aria-hidden="true" class="icon icon-instagram-1"></i>			</a>
+		</li>
+	</ul>
+					</div>
+									</div>
+							
+			
+					<div class="zoom-anim-dialog mfp-hide elementskit-team-popup team-popup-id-f905512" id="ekit_team_modal_f905512_723" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<button type="button" class="ekit-team-modal-close">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-times" viewBox="0 0 352 512" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>						</button>
+
+						<div class="modal-body">
+															<div class="ekit-team-modal-img">
+									<img loading="lazy" decoding="async" width="412" height="379" src={s1} class="attachment-full size-full wp-image-415" alt="" />								</div>
+							
+							<div class="ekit-team-modal-info has-img">
+								<h2 class="ekit-team-modal-title">	Inemugha Mercy Azibakeneobebh</h2>
+								<p class="ekit-team-modal-position">Sales Strategist/Manager</p>
+
+								<div class="ekit-team-modal-content">
+									A small river named Duden flows by their place and supplies it with the necessary								</div>
+
+																	<ul class="ekit-team-modal-list">
+																					<li><strong>Phone:</strong><a href="tel:+1 (859) 254-6589">+1 (859) 254-6589</a></li>
+										
+																					<li><strong>Email:</strong><a href="mailto:info@example.com">info@example.com</a></li>
+																			</ul>
+								
+								<ul class="ekit-team-social-list">
+			<li class="elementor-repeater-item-e8d6be4">
+			<a href="#" aria-label="Facebook">
+				<i aria-hidden="true" class="icon icon-facebook"></i>			</a>
+		</li>
+			<li class="elementor-repeater-item-45b3d13">
+			<a href="#" aria-label="twitter">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>			</a>
+		</li>
+			<li class="elementor-repeater-item-8edd9a4">
+			<a href="https://facebook.com/" aria-label="instagram">
+				<i aria-hidden="true" class="icon icon-instagram-1"></i>			</a>
+		</li>
+	</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>				</div>
+				</div>
+				</div>
+
+
+
+
+					<div class="elementor-element elementor-element-976af91 e-con-full e-flex  e-con e-child" data-id="976af91" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+				<div class="elementor-element elementor-element-f905512 team-member-item elementor-widget elementor-widget-elementskit-team" data-id="f905512" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-left ekit-team-style-default">
+							<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_f905512_723" class="ekit-team-popup">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block"  data-toggle="modal" data-target="ekit_team_modal_#f905512_723" >
+					<img loading="lazy" decoding="async" width="412" height="379" src={s2} class="attachment-full size-full wp-image-415" alt="" />				</div>
+							</a>
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											<a aria-label="profile" href="javascript:void(0)" data-mfp-src="#ekit_team_modal_f905512_723" class="ekit-team-popup">
+					Oluwatosin Bamidele Emmanuel						</a>
+											</h2>
+					
+                    
+								<p class="profile-designation">Site Supervisor</p>
+									</div>
+
+									<div class="profile-footer">
+						<ul class="ekit-team-social-list">
+			<li class="elementor-repeater-item-e8d6be4">
+			<a href="#" aria-label="Facebook">
+				<i aria-hidden="true" class="icon icon-facebook"></i>			</a>
+		</li>
+			<li class="elementor-repeater-item-45b3d13">
+			<a href="#" aria-label="twitter">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>			</a>
+		</li>
+			<li class="elementor-repeater-item-8edd9a4">
+			<a href="https://facebook.com/" aria-label="instagram">
+				<i aria-hidden="true" class="icon icon-instagram-1"></i>			</a>
+		</li>
+	</ul>
+					</div>
+									</div>
+							
+			
+					<div class="zoom-anim-dialog mfp-hide elementskit-team-popup team-popup-id-f905512" id="ekit_team_modal_f905512_723" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<button type="button" class="ekit-team-modal-close">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-times" viewBox="0 0 352 512" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>						</button>
+
+						<div class="modal-body">
+															<div class="ekit-team-modal-img">
+									<img loading="lazy" decoding="async" width="412" height="379" src={s2} class="attachment-full size-full wp-image-415" alt="" />								</div>
+							
+							<div class="ekit-team-modal-info has-img">
+								<h2 class="ekit-team-modal-title">	Oluwatosin Bamidele Emmanuel</h2>
+								<p class="ekit-team-modal-position">Site Supervisor</p>
 
 								<div class="ekit-team-modal-content">
 									A small river named Duden flows by their place and supplies it with the necessary								</div>

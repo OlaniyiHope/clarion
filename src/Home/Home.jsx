@@ -934,7 +934,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>“Working with Clarion Global Energy felt different from day one. Peculiar personally showed up on-site several times just to make sure everything was done exactly as discussed. You can tell she’s not just aFer compleAng a project, she’s aFer geHng it right. Every detail was handled with so much care, and the result was even beIer than what I expected.”</p></div>
+															<div class="elementskit-commentor-content"><p>“Working with Clarion Global Energy felt different from day one. Peculiar personally showed up on-site several times just to make sure everything was done exactly as discussed. You can tell she’s not just after compleAng a project, she’s after getting it right. Every detail was handled with so much care, and the result was even better than what I expected.”</p></div>
 							
 							{/*<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
@@ -965,7 +965,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>“I’ve been in the LPG space for a while, but I haven’t met many as thorough as Peculiar. She doesn’t mind traveling long distances to inspect work, ask quesAons, and double-check details most people would overlook. Her commitment to excellence honestly sets the tone for the whole team.”</p></div>
+															<div class="elementskit-commentor-content"><p>“I’ve been in the LPG space for a while, but I haven’t met many as thorough as Peculiar. She doesn’t mind traveling long distances to inspect work, ask questions, and double-check details most people would overlook. Her commitment to excellence honestly sets the tone for the whole team.”</p></div>
 							
 							{/*<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
@@ -996,7 +996,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 																	</div>
 															</div>
 							
-															<div class="elementskit-commentor-content"><p>“Clarion Global Energy is young, but Peculiar has been doing this for years — and it shows. She supervised my project personally and made sure every stage followed the agreed specificaAon. I’ve since referred two friends because she delivers what she promises, with that personal touch you rarely find.”</p></div>
+															<div class="elementskit-commentor-content"><p>“Clarion Global Energy is young, but Peculiar has been doing this for years — and it shows. She supervised my project personally and made sure every stage followed the agreed specification. I’ve since referred two friends because she delivers what she promises, with that personal touch you rarely find.”</p></div>
 							
 						{/*}	<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
@@ -1028,7 +1028,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 															</div>
 							
 															<div class="elementskit-commentor-content"><p>
-“No project is ever 100% perfect, and what impressed me most about Clarion Global Energy was how they handled a challenge we had during my plant installaAon. There was a slight mix-up in one secAon of the setup, but Peculiar didn’t make excuses — she took full responsibility, mobilized her team immediately, and got it fixed in record Ame. That kind of accountability is rare. I’d sAll choose them a hundred Ames over because she stands by her word.”</p></div>
+“No project is ever 100% perfect, and what impressed me most about Clarion Global Energy was how they handled a challenge we had during my plant installation. There was a slight mix-up in one section of the setup, but Peculiar didn’t make excuses — she took full responsibility, mobilized her team immediately, and got it fixed in record time. That kind of accountability is rare. I’d still choose them a hundred times over because she stands by her word.”</p></div>
 							
 							{/*<div class="elementskit-commentor-bio">
 								<div class="elementkit-commentor-details client_left">
