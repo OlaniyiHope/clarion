@@ -30,7 +30,7 @@ import twentys from "../img/26.JPG"
 import two from "../img/sa2.jpg"
 import sa from "../img/sb.png"
 import cy from "../img/5.JPG"
-
+import { Helmet } from 'react-helmet-async';
 import { gsap } from "gsap"; 
 import ServiceHome from "./Booking";
 import "./Home.css"
@@ -113,7 +113,13 @@ const Home = () => {
   };
 
   return (
-    <div>
+	<>
+	  <Helmet>
+        <title>Clarion Global Energy Limited | LPG & Petroleum Solutions Nigeria</title>
+        <meta name="description" content="Nigeria's trusted LPG engineering company. We design, install and maintain LPG storage tanks, skid plants, and autogas systems. Bulk supply of LPG, AGO, PMS, CNG nationwide." />
+        <link rel="canonical" href="https://www.clarionglobalenergy.com/" />
+      </Helmet>
+	    <div>
 		      <a
         class="header-whatsapp"
         href="https://wa.me/2349035775544"
@@ -1493,6 +1499,7 @@ Our operations strictly follow DPR and international safety regulations, using c
 				</div>
            <Footer />
     </div>
+	</>
   );
 };
 
