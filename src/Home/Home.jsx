@@ -17,7 +17,9 @@ import pump from "../img/pump.JPG"
 import t8 from "../img/cgs.jpg"
 import cus from "../img/cus.png"
 import con from "../img/con.png"
-import ta from "../img/new3.png"
+import ta from "../img/c9.png"
+import mod from "../img/c10.png"
+import promoImg from "../img/c1.png"; // ✅ path to your image
 import nine from "../img/9.JPG"
 import twelve from "../img/12.JPG"
 import fourtn from "../img/14.png"
@@ -28,8 +30,7 @@ import twentys from "../img/26.JPG"
 import two from "../img/sa2.jpg"
 import sa from "../img/sb.png"
 import cy from "../img/5.JPG"
-import mod from "../img/new1.png"
-import promoImg from "../img/new2.png"; // ✅ path to your image
+
 import { gsap } from "gsap"; 
 import ServiceHome from "./Booking";
 import "./Home.css"

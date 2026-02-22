@@ -17,11 +17,12 @@ import twentys from "./img/26.JPG"
 import two from "./img/2.JPG"
 import sa from "./img/sb.png"
 import cy from "./img/5.JPG"
-import promoImg from "./img/new3.png"; // ✅ path to your image
+import ta from "./img/c9.png"
+import mod from "./img/c10.png"
+import promoImg from "./img/c1.png"; // ✅ path to your image
 import headerBg from "./page-header-bg.jpg";
 import { gsap } from "gsap"; 
-import mod from "./img/new1.png"
-import ta from "./img/new2.png"
+
 import "./instagram.css";
 import "./whatsapp.css"
 
