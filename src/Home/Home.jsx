@@ -114,11 +114,11 @@ const Home = () => {
 
   return (
 	<>
-	  <Helmet>
+	  {/* <Helmet>
         <title>Clarion Global Energy Limited | LPG & Petroleum Solutions Nigeria</title>
         <meta name="description" content="Nigeria's trusted LPG engineering company. We design, install and maintain LPG storage tanks, skid plants, and autogas systems. Bulk supply of LPG, AGO, PMS, CNG nationwide." />
         <link rel="canonical" href="https://www.clarionglobalenergy.com/" />
-      </Helmet>
+      </Helmet> */}
 	    <div>
 		      <a
         class="header-whatsapp"
