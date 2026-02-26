@@ -244,7 +244,7 @@ const Blog = () => {
       <Header />
 
       {/* Modals */}
-      {currentModal === 1 && (
+      {/* {currentModal === 1 && (
         <div className="modal-overlay"><div className="modal-box">
           <button className="close-btn3" onClick={handleClose}>&times;</button>
           <img src={promoImg} alt="Promo Ad 1" />
@@ -261,7 +261,7 @@ const Blog = () => {
           <button className="close-btn3" onClick={handleClose}>&times;</button>
           <img src={ta} alt="Promo Ad 3" />
         </div></div>
-      )}
+      )} */}
 
       <main id="content" className="site-main">
 
