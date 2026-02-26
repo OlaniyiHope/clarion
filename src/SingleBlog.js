@@ -421,22 +421,22 @@ const SingleBlog = () => {
     else setCurrentModal(null);
   };
 
-  if (!post) {
-    return (
-      <div>
-        <Header />
-        <div style={{ background: "#0a0a0a", minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <div className="text-center">
-            <h2 style={{ color: "#fff" }}>Blog post not found.</h2>
-            <Link to="/blog" className="elementor-button elementor-button-link elementor-size-sm mt-3" style={{ backgroundColor: "#fa5a04" }}>
-              Back to Blog
-            </Link>
-          </div>
-        </div>
-        <Footer />
-      </div>
-    );
-  }
+  // if (!post) {
+  //   return (
+  //     <div>
+  //       <Header />
+  //       <div style={{ background: "#0a0a0a", minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+  //         <div className="text-center">
+  //           <h2 style={{ color: "#fff" }}>Blog post not found.</h2>
+  //           <Link to="/blog" className="elementor-button elementor-button-link elementor-size-sm mt-3" style={{ backgroundColor: "#fa5a04" }}>
+  //             Back to Blog
+  //           </Link>
+  //         </div>
+  //       </div>
+  //       <Footer />
+  //     </div>
+  //   );
+  // }
 
   const relatedPosts = getRelatedPosts(slug);
 

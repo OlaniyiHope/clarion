@@ -14,12 +14,13 @@ import Booking from "./Home/Booking";
 import Test from "./Test";
 import About from "./About";
 import Services from "./Services";
-import Blog from "./Blog";
 import Project from "./Project";
 import Help from "./Help";
 import Contact from "./Contact";
 import Pricing from "./Pricing";
 import SingleBlog from "./SingleBlog";
+import Blog from "./Blog";
+import UploadBlog from "./UploadBlog";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/blog" element={<Blog />} />
+  
+<Route path="/upload-blog" element={<UploadBlog />} />
           <Route exact path="/single-blog" element={<SingleBlog />} />
           <Route exact path="/project" element={<Project />} />
           <Route exact path="/help" element={<Help />} />
