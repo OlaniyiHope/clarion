@@ -2,7 +2,7 @@
 import React, { useState, useRef, useCallback, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const API_URL = "https://gtcbackend.vercel.app/api/blog";
+const API_URL = "https://gtcbackend.vercel.app/api/all-blog";
 
 const C = {
   lightBlue: "#0084ce",
